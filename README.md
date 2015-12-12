@@ -1,2 +1,2 @@
 # opengovse
-Hemsida för samlingsplats av transparensprojekt
+Hemsida för samlingsplats av transparensprojekt.
