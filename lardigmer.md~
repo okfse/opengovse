@@ -22,8 +22,8 @@ layout: page
   <div class="row">
         <h2>Kategorier</h2>
         <ul>
-            <li><a href="#handlingar">Allmänna handlingar</a></li>
-            <li><a href="#data">Öppna Data</a></li>
+            <li><a href="#begar">Begär information</a></li>
+            <li><a href="#oversikt">Få översikt</a></li>
 	    <li><a href="#granska">Granska staten</a></li>
 	    <li><a href="#interagera">Interagera</a></li>
         </ul>
