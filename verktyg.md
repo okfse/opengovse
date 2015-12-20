@@ -60,7 +60,8 @@
                     Sedan 2011 är det ett brott mot Lagen om elektronisk kommunikation, LEK, att placera cookies i besökarnas webbläsare utan samtycke. Ändå är det få webbplatser i Sverige som följer lagen. Oftast används cookies av kommersiella webbplatser
                     för att kartlägga besökarnas vanor på Internet. Bara genom att besöka en nyhetsplats som DN.se placeras ett 30-tal cookies i din webbläsare, utan att du gett ditt medgivande. Ingen av dessa cookies har betydelse för webbplatsens funktionalitet,
                     utan kommer från tidningens samarbetspartners, det vill säga annonsnätverk och liknande, som vill samla information om dig och hur du surfar på Internet. Att göra så är olagligt, såvida du inte gett ditt medgivande. Läs mer på projektets
-                    hemsida.</p>
+                    hemsida.
+                </p>
             </div>
             <div class="tool">
                 <h3>Riksdagen Redigerar</h3>
@@ -82,28 +83,28 @@
             <p>Verktyg för att ta del av handlingar och data...</p>
             <div class="tool">
                 <h3>FixaMinGata.se</h3>
-                <p>Länk: <a href="http://fixamingata.se/">Fixa Min Gata</a>
-                    <p>FixaMinGata hjälper dig rapportera, visa, eller diskutera lokala problem runt om i din stad. Det är ett projekt av <a href="http://ffkp.se">Föreningen fri kultur och programvara (FFKP)</a> och liknande lösningar finns över hela världen.</p>
+                <p>Länk: <a href="http://fixamingata.se/">Fixa Min Gata</a></p>
+                <p>FixaMinGata hjälper dig rapportera, visa, eller diskutera lokala problem runt om i din stad. Det är ett projekt av <a href="http://ffkp.se">Föreningen fri kultur och programvara (FFKP)</a> och liknande lösningar finns över hela världen.</p>
             </div>
             <div class="tool">
                 <h3>Automatic Tool for AMendments (AT4AM)</h3>
-                <p>Länk: <a href="https://www.dfri.se/projekt/at4am/">AT4AM</a>
-                    <p>Inom Europaparlamentet (EP) används verktyget Automatic Tool for AMendments (AT4AM) för att göra förslag på lagförändringar för den Europeiska Unionen (EU). DFRI driver (till vår kännedom) världens enda AT4AM utanför EP på at4am.eu.
-                        För att öka transparensen och göra det lättare för allmänheten att påverka lagmakarna inom EU har vi gjort verktyget tillgänglig för alla. AT4AM är i dagsläget inte tillräckligt användarvänligt för att vem som helst ska kunna hoppa
-                        in och förbättra lagarna, men vi hoppas kunna nå dit! Arbetar du med att påverka EU-lagar, som privatperson eller inom en annan organisation? Gå med i AT4AM-mailinglistan och berätta hur du använder, eller vill använda, AT4AM!</p>
+                <p>Länk: <a href="https://www.dfri.se/projekt/at4am/">AT4AM</a></p>
+                <p>Inom Europaparlamentet (EP) används verktyget Automatic Tool for AMendments (AT4AM) för att göra förslag på lagförändringar för den Europeiska Unionen (EU). DFRI driver (till vår kännedom) världens enda AT4AM utanför EP på at4am.eu. För
+                    att öka transparensen och göra det lättare för allmänheten att påverka lagmakarna inom EU har vi gjort verktyget tillgänglig för alla. AT4AM är i dagsläget inte tillräckligt användarvänligt för att vem som helst ska kunna hoppa in
+                    och förbättra lagarna, men vi hoppas kunna nå dit! Arbetar du med att påverka EU-lagar, som privatperson eller inom en annan organisation? Gå med i AT4AM-mailinglistan och berätta hur du använder, eller vill använda, AT4AM!</p>
             </div>
             <div class="tool">
                 <h3>Öppna data i skolan</h3>
-                <p>Länk: <a href="http://oppnadataiskolan.se/">Öppna data i skolan</a>
-                    <p>Projektet syftar till att informera lärare om möjligheten att använda öppna data som en del av sin undervisning. Öppna data kan relateras till flera av skolans ämnen, där elever exempelvis kan göra egna analyser, använda olika visualiseringsverktyg
-                        eller använda tillgängliggjort bildmaterial.</p>
+                <p>Länk: <a href="http://oppnadataiskolan.se/">Öppna data i skolan</a></p>
+                <p>Projektet syftar till att informera lärare om möjligheten att använda öppna data som en del av sin undervisning. Öppna data kan relateras till flera av skolans ämnen, där elever exempelvis kan göra egna analyser, använda olika visualiseringsverktyg
+                    eller använda tillgängliggjort bildmaterial.</p>
             </div>
             <div class="tool">
                 <h3>Postnummerupproret</h3>
-                <p>Länk: <a href="http://www.postnummeruppror.nu/">Postnummerupproret</a>
-                    <p>Postnummer, adresser och tillhörande platsinformation används i massor av applikationer men är dyr att komma över och hålla uppdaterad. Det kostar nära 40 000 kr per år för åtkomst till korrekt information. Det är ett pris som utesluter
-                        de flesta från att utveckla nya och förbättrade tjänster. Postnummerupproret vill skapa en ny postnummerdatabas fri att använda för alla. Samtidigt vill projektet visa för politiker att affärsmodellen för postnummer är förlegad.
-                        Du kan hjälpa till med att rapportera in postadresser i ditt närområde, t.ex. där du bor eller när du fått ett kvitto från en butik där postnumret står.</p>
+                <p>Länk: <a href="http://www.postnummeruppror.nu/">Postnummerupproret</a></p>
+                <p>Postnummer, adresser och tillhörande platsinformation används i massor av applikationer men är dyr att komma över och hålla uppdaterad. Det kostar nära 40 000 kr per år för åtkomst till korrekt information. Det är ett pris som utesluter
+                    de flesta från att utveckla nya och förbättrade tjänster. Postnummerupproret vill skapa en ny postnummerdatabas fri att använda för alla. Samtidigt vill projektet visa för politiker att affärsmodellen för postnummer är förlegad. Du
+                    kan hjälpa till med att rapportera in postadresser i ditt närområde, t.ex. där du bor eller när du fått ett kvitto från en butik där postnumret står.</p>
             </div>
         </div>
 
