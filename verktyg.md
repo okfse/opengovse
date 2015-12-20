@@ -1,4 +1,6 @@
---- layout: page ---
+---
+layout: page
+---
 <!-- page content start -->
 
 <div class="container">
