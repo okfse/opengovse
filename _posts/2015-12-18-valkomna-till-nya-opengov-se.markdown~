@@ -12,8 +12,7 @@ categories: nyhet
 
 <p>Se [Lär Dig Mer][lardigmer] för mer infomration om hur du får ut så mycket som möjligt om OpenGov.se och dess samlingar. Skicka alla typer av bugganmälningar och funktionsförfrågningar till [OpenGov.ses GitHub förråd][opengovse]. Om du har frågor kan du fråga dem på [OpenGov.ses wiki-sida][opengovse-wiki].</p>
 
-<p>
-[lardigmer]:      http://opengov.se/lardigmer
+<p>[lardigmer]:      http://opengov.se/lardigmer
 [opengovse]:      https://github.com/okfse/opengovse
 [opengovse-wiki]: https://github.com/okfse/opengovse/wiki
 </p>
