@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Välkomna till nya OpenGov.se!"
 date:   2015-12-18 14:59:15
 categories: nyhet
