@@ -12,7 +12,7 @@ layout: default
       <ul class="news">
           {% for post in site.posts %}
             <li>
-              <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
               {{ post.excerpt }}
             </li>
           {% endfor %}
