@@ -6,7 +6,7 @@ layout: page
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h1>Tjänster och Verktyg</h1>
+            <h1>Tjänster och verktyg</h1>
             <p>Här hittar du information om verktyg, applikationer och andra initiativ som arbetar med öppna data, eller bidrar till ökad öppenhet där du har möjlighet att bidra och se värdet i öppenhet.</p>
 
             <h2 id="begar">Begär information</h2>
