@@ -10,7 +10,7 @@ layout: page
       <p>Här kan du läsa om goda exempel där användare använt sig av verktyg och metoder för transparens och öppehet!</p>
       <h3>Bidra med exempel på historier och erfarenheter!</h3>
       </br>
-      <p><b>Har du ett gott exempel att dela? Berätta gärna genom att kontakta oss eller bidra direkt via <a href="https://github.com/okfse/opengovse">GitHub</a>!</b></p>
+      <p><b>Har du ett gott exempel att dela? Berätta gärna genom att kontakta oss via <a href="mailto:info[snabel-a]opengov.se">info[snabel-a]opengov.se</a> eller bidra direkt via <a href="https://github.com/okfse/opengovse">GitHub</a>!</b></p>
     </div>
   </div>
 </div>

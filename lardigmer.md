@@ -84,12 +84,8 @@ layout: page
 <div class="network">
           <h3>Open Knowledge OpenGov-nätverk</h3>
           <p>Länk: <a href="https://discuss.okfn.org/c/working-groups/open-gov-data">OpenGov på Open Knowledge Forumet</a><p><a href="https://lists.okfn.org/mailman/listinfo/open-government">OpenGov e-postlistan</a></p><p><a href="http://wiki.okfn.org/Working_Groups/Government">Wiki för OpenGov öppna arbetsgrupp vid Open Knowledge</a></p>
-          <p>Open Knowledge har ett stort nätverk inom just OpenGov och dessa länkar leder till </p>
-      </div>
-<div class="resource">
-          <h3>Ytterligare nätverk - Open Knowledge</h3>
-          <p>Länk: OpenSpending-området på <a href="https://discuss.okfn.org/c/openspending">Open Knowledge Forumet</a>, <a href="https://lists.okfn.org/mailman/listinfo/openspending">e-postlista</a> och kampanjen StopSecretContracts.org <a href="https://lists.okfn.org/mailman/listinfo/secretcontracts">e-postlista</a>.</p>
-          <p>Vid dessa hittar du mer om ekonomiska och transparens-aspekter av OpenGov-rörelsen.</p>
+          <p>Open Knowledge har ett stort nätverk inom just OpenGov och dessa länkar leder till OpenGov-nätverk. Nedanför hittar du fler nätverk för ekonomiska och insyns-aspekter av OpenGov-rörelsen.</p>
+          <p>Länk: <a href="https:///openspending.org">OpenSpending.org</a>-projektet på <a href="https://discuss.okfn.org/c/openspending">Open Knowledge Forumet</a>, <a href="https://lists.okfn.org/mailman/listinfo/openspending">e-postlista</a> och kampanjen <a href="http://stopsecretcontracts.org">StopSecretContracts.org</a> egna <a href="https://lists.okfn.org/mailman/listinfo/secretcontracts">e-postlista</a>.</p>
       </div>
 <h2 id="avancerat">Avancerat</h2>
 <p>Här finns mer avancerat material tillgängligt som kan hjälpa dig ännu mer att arbeta eller agera för OpenGov.</p>
