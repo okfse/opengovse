@@ -6,9 +6,9 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h2>Opengov.se - för ett öppnare Sverige</h2>
-      <p>Här hittar du information om projekt, aktiviteter och initiativ inom insyn i offentlig sektor och öppna data i Sverige.</p>
-      <h3 id="news">Nyheter</h3>
+      <h2>Opengov.se - portalen för ett öppet och transparent Sverige!</h2>
+      <p>Här hittar du information om projekt, rapporter, aktiviteter och initiativ som hjälper dig öka insyn i offentlig sektor i Sverige.</p>
+      <h3 id="news">Nyheter OpenGov.se</h3>
       <ul class="news">
           {% for post in site.posts %}
             <li>
@@ -19,7 +19,16 @@ layout: default
     </ul>
     </div>
     <div class="col-sm-6">
-      <h6>Basic template</h6>
+      <h6>Nyhetsplatsen</h6>
+      <div class="news">
+        <ul>
+         <li><a href="http://planet.okfn.org">Open Knowledge Internationella samlade bloggflöde</a> / <a href="http://planet.okfn.org/feed/">(RSS)</a></li>
+         <li><a href="http://se.okfn.org/blog/">Open Knowledge Sveriges Blogg</a> / <a href="http://se.okfn.org/blog/feed/">(RSS)</a></li>
+         <li><a href="https://twitter.com/hashtag/opengov">#OpenGov på Twitter</a></li>
+         <li><a href="https://twitter.com/hashtag/opengovse">#OpenGovSe på Twitter</a></li>
+         <li><a href="https://quitter.se/api/statusnet/tags/timeline/opengov.rss">#OpenGov på Quitter (RSS)</a></li>
+         <li><a href="{{ site.baseurl }}/feed.xml" data-scroll >OpenGov.se RSS</a></li>
+      </div>
     </div>
   </div>
 </div>
