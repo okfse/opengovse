@@ -7,8 +7,7 @@ layout: page
   <div class="row">
     <div class="col-md-8">
       <h1>Rapporter och Presentationer</h1>
-      <p>
-      <h3 class="section-heading id="#varde>Värdeskapande</h3>
+      <h3 class="section-heading" id="#varde">Värdeskapande</h3>
 
       <div class="report">
         <h4>The Impact of Open Data (2015)</h4>
