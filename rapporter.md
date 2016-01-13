@@ -94,7 +94,7 @@ layout: page
   <p>Länk: <a href="http://skl.se/naringslivarbetedigitalisering/digitalisering/digitaldelaktighetoppenhet/oppnadata/inspirationgodaexempel/intervjueroppnadata.6993.html">SKL.se</a></p>
   </div>
 
-<h3 id="#strategi>Strategier</h3>
+<h3 id="#strategi">Strategier</h3>
 <div class="report">
   <h4>Good basic data for Everyone (Danmark, 2012)</h4>
   <p>Länk: <a href="http://uk.fm.dk/publications/2012/good-basic-data-for-everyone/~/media/Publikationer/Imported/2012/Gode%20grunddata%20til%20alle/BasicData_UK_web_2012.10.08.ashx">2015: The Impact of open data –a preliminary study - Ministry of Finance publications– 15b/2015 (Finland)</a></p>
@@ -103,9 +103,7 @@ layout: page
   <h4>Fler Rapporter - Open Data Research Network</h4>
   <p>Länk: <a href="http://www.opendataresearch.org/reports">Open Data Research Network</a></p>
   </div>
-<div class"question">
 <h2 class="section-heading">Vet du någon rapport som inte listas så hör av dig!</h2>
-    </div>
 </div>
     <div class="col-md-4">
       <h2>Kategorier</h2>
