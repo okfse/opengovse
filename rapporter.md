@@ -60,7 +60,7 @@ layout: page
   <p>Länk: <a href="http://www.vinnova.se/upload/EPiStorePDF/vr_14_04.pdf">Vinnova.se</a></p>
   </div>
 
-<h3 id="#guide>Stöd och Vägledning</h3>
+<h3 id="#guide">Stöd och Vägledning</h3>
 
   <div class="report">
 
@@ -82,8 +82,6 @@ layout: page
   <div class="course">
   <h4>Utbildningsmaterial Öppna Data</h4>
   <p>Länk: <a href="http://akrodata.se/utbildningsmaterial-oppna-data/">Akrodata.se</a></p>
-  <h4>Utbildning i Länkade Öppna Data</h4>
-  <p>Länk: <a href="http://lankadedata.se/dcat-utbildning/">Lankadedata.se</a></p>
   <h4>Länkade Öppna Data i Teori och Praktik</h4>
   <p>Länk: <a href="http://lankadedata.se/lod-utbildning">Lankadedata.se</a></p>
   <h4>Utbildning i att beskriva datamängder med DCAT-AP</h4>
