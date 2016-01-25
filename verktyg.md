@@ -115,7 +115,7 @@ layout: page
         <div class="col-md-4">
             <h2>Kategorier</h2>
             <ul>
-            	<li><a href="#beskriva">Beskriva data</a></li>
+            	<li><a href="#beskriva">Beskriva och förvalta öppna data</a></li>
                 <li><a href="#begar">Begär information</a></li>
                 <li><a href="#oversikt">Få översikt</a></li>
                 <li><a href="#granska">Granska staten</a></li>
