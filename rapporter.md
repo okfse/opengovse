@@ -6,10 +6,12 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h1>Rapporter och presentationer</h1>
-      <p>På denna sida hittar du länkar till rapporter och forskningsartiklat om öppna data och öppen förvaltning. Känner du till någon rapport som inte är listad? Tipsa oss på twitter eller <a href="https://github.com/okfse/opengovse/issues">lägg ett ärende på Github</a>.</p>
-      <h3 class="section-heading" id="#varde">Värdeskapande</h3>
 
+      <h1>Rapporter och presentationer</h1>
+
+      <p>På denna sida hittar du länkar till rapporter och forskningsartiklar om öppna data och öppen förvaltning. Känner du till någon rapport som inte är listad? Tipsa oss på twitter eller <a href="https://github.com/okfse/opengovse/issues">lägg ett ärende på Github</a>. Se även <a href="http://www.opendataresearch.org/emergingimpacts" lang="en">Open data research network</a> och deras sammanställnng av forskning om öppna data.</p>
+
+      <h3 class="section-heading" id="#varde">Värdeskapande</h3>
       <div class="report">
         <h4>The Impact of Open Data (2015)</h4>
           <p>Länk: <a href="http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf">2015: The Impact of open data –a preliminary study - Ministry of Finance publications– 15b/2015 (Finland)</a></p>
@@ -61,7 +63,7 @@ layout: page
   <p>Länk: <a href="http://www.vinnova.se/upload/EPiStorePDF/vr_14_04.pdf">Vinnova.se</a></p>
   </div>
 
-<h3 id="#guide">Stöd och Vägledning</h3>
+<h3 id="#guide">Stöd och vägledning</h3>
 
   <div class="report">
 
@@ -109,10 +111,10 @@ layout: page
       <ul>
         <li><a href="#varde">Värdeskapande</a></li>
         <li><a href="#transparens">Transparens</a></li>
-        <li><a href="#demokrati">Demokrati & Ansvarsskydlighet</a></li>
+        <li><a href="#demokrati">Demokrati</a></li>
         <li><a href="#integritet">Integritet</a></li>
         <li><a href="#analys">Situationsanalys</a></li>
-        <li><a href="#guide">Stöd, Guider och Vägledning</a></li>
+        <li><a href="#guide">Stöd, guider och vägledningar</a></li>
         <li><a href="#strategi">Strategier</a></li>
         </ul>
       </div>
