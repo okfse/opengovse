@@ -6,7 +6,8 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h1>Rapporter och Presentationer</h1>
+      <h1>Rapporter och presentationer</h1>
+      <p>På denna sida hittar du länkar till rapporter och forskningsartiklat om öppna data och öppen förvaltning. Känner du till någon rapport som inte är listad? Tipsa oss på twitter eller <a href="https://github.com/okfse/opengovse/issues">lägg ett ärende på Github</a>.</p>
       <h3 class="section-heading" id="#varde">Värdeskapande</h3>
 
       <div class="report">
