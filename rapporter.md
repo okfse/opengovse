@@ -17,6 +17,8 @@ layout: page
           <p>Länk: <a href="http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf">2015: The Impact of open data –a preliminary study - Ministry of Finance publications– 15b/2015 (Finland)</a></p>
         <h4>Open for Business: How Open Data Can Help Achieve the G20 Growth Target</h4>
           <p>Länk: <a href="https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf">Omidyar.com</a></p>
+        <h4>Creating Value through Open Data (2014)</h4>
+        <p><a href="https://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf" lang="en">European Commission: Creating Value through Open Data</a></p>
         <h4>Open Data Study</h4>
           <p>Länk: <a href="https://www.opensocietyfoundations.org/reports/open-data-study">opensocietyfoundations.org</a></p>
         <h4>Open Data Unlocking Innovation and Performacnce with Liquid Information</h4>
