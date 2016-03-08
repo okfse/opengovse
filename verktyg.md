@@ -10,7 +10,14 @@ layout: page
             <p>Här hittar du information om verktyg, applikationer och andra initiativ som arbetar med öppna data, eller bidrar till ökad öppenhet där du har möjlighet att bidra och se värdet i öppenhet.</p>
             
             <h2 id="beskriva">Beskriva och förvalta öppna data</h2>
-            <p>För att beskriva och förvalta öppna data finns följande verktyg som även har särskilt stöd för den svenska anpassningen av DCAT-AP:</p>
+            <p>För att beskriva och förvalta öppna data finns följande verktyg och modeller.</p>
+            
+            <div class="tool" id="maturity-model">
+            	<h3 lang="en">Open Data Maturity Model (2015)</h3>
+            	<p>Länk: <a lang ="en" href="https://theodi.org/guides/maturity-model">ODI Open Data Maturity Model</a></p>
+            	<p>Ett verktyg och en mognadsmodell för organisationer som vill utvärdera sin egen hantering av öppna data.</p>
+            </div>
+            
             <div class="tool">
             	<h3>DCAT-AP Manager</h3>
             	<p>Länk: <a href="https://dcat-editor.com/manager/">dcat-editor.com/manager</a></p>
