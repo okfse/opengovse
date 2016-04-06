@@ -35,7 +35,12 @@ layout: page
           <h3>Blogginlägget "Hur du Engagerar Nästa Generations Beslutsfattare genom OpenGov"</h3>
           <p>Länk: <a href="https://sunlightfoundation.com/blog/2014/12/12/how-to-engage-the-next-generation-of-decision-makers-with-opengov/">SunlightFoundation.com</a></p>
           <p>Ett blogginlägg av den idella OpenGov-organisationen <a href="https://sunlightfoundation.com/">Sunlight Foundation</a> i USA. Visar på hur OpenGov är relevant och nyttigt i undervisning för barn och unga.</p>
-      </div>
+      </div>http://www.svtplay.se/klipp/143258/offentlighetsprincipen-vad-innebar-den
+<div class="video">
+          <h3>Filmen "Offentlighetsprincipen - vad innebär den?" (2009)</h3>
+          <p>Länk: <a href="http://www.svtplay.se/klipp/143258/offentlighetsprincipen-vad-innebar-den">SvtPlay.se (Obs: Flash)</a></p>
+          <p>"Journalisten Anders R Olsson har alla svar du behöver." Experten Anders R Olsson (avl. 2012) introducerar kort varför Offentlighetsprincipen är viktig och vad den innebär. Publicerad av Uppdrag Granskning vid Sveriges Television AB.</p>
+          <iframe src='http://www.svt.se/videoplayer-embed/143258' width='480' height='270' frameborder='0' allowfullscreen='true' scrolling='no'></iframe>
 <div class="video">
           <h3>Filmen "Internets Underbarn (The Internet's Own Boy: The Story of Aaron Swartz)" (2014)</h3>
           <p>Länk: <a href="https://www.youtube.com/watch?v=vXr-2hwTk58">Youtube.com</a></p>

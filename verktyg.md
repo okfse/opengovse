@@ -19,8 +19,8 @@ layout: page
              </div>
         <div class="tool">
             <h3>Fråga Staten</h3>
-            <p>Länk: <a href="http://fragastaten.se">FrågaStaten.se</a></p>
-            <p>FrågaStaten.se är en överskådlig plattform som göra det säkert, lätt och bekvämt att använda offentlighetsprincipen. Plattformen tillåter användare att begära ut och ta del av allmänna handlingar genom en digitaliserad och enkel samlingsplats. Ju mer du använder den desto mer hjälper du att minska administrationen för offentlig sektor.</p>
+            <p>Länk: <a href="https://fragastaten.se/sv">FrågaStaten.se</a></p>
+            <p>FrågaStaten.se är en överskådlig plattform som göra det säkert, lätt och bekvämt att använda offentlighetsprincipen. Plattformen tillåter användare att begära ut och ta del av allmänna handlingar genom en digitaliserad och enkel portal. Ju mer du använder den desto mer hjälper du att minska administrationen för offentlig sektor. Projektet är icke-vinstdrivande och verkar för en stark och digital Offentighetsprincip.</p>
 	           </div>
 	       <h2 id="oversikt">Få översikt</h2>
          <p>Upptäck dessa projekt för att få översikt på situationen kring transparens och öppenhet i Sverige!</p>
