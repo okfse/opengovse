@@ -6,15 +6,19 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h1>Rapporter och Presentationer</h1>
-      <p>
-      <h3 class="section-heading id="#varde>Värdeskapande</h3>
 
+      <h1>Rapporter och presentationer</h1>
+
+      <p>På denna sida hittar du länkar till rapporter och forskningsartiklar om öppna data och öppen förvaltning. Känner du till någon rapport som inte är listad? Tipsa oss på twitter eller <a href="https://github.com/okfse/opengovse/issues">lägg ett ärende på Github</a>. Se även <a href="http://www.opendataresearch.org/emergingimpacts" lang="en">Open data research network</a> och deras sammanställnng av forskning om öppna data.</p>
+
+      <h3 class="section-heading" id="#varde">Värdeskapande</h3>
       <div class="report">
         <h4>The Impact of Open Data (2015)</h4>
           <p>Länk: <a href="http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf">2015: The Impact of open data –a preliminary study - Ministry of Finance publications– 15b/2015 (Finland)</a></p>
         <h4>Open for Business: How Open Data Can Help Achieve the G20 Growth Target</h4>
           <p>Länk: <a href="https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf">Omidyar.com</a></p>
+        <h4>Creating Value through Open Data (2014)</h4>
+        <p><a href="https://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf" lang="en">European Commission: Creating Value through Open Data</a></p>
         <h4>Open Data Study</h4>
           <p>Länk: <a href="https://www.opensocietyfoundations.org/reports/open-data-study">opensocietyfoundations.org</a></p>
         <h4>Open Data Unlocking Innovation and Performacnce with Liquid Information</h4>
@@ -61,7 +65,7 @@ layout: page
   <p>Länk: <a href="http://www.vinnova.se/upload/EPiStorePDF/vr_14_04.pdf">Vinnova.se</a></p>
   </div>
 
-<h3 id="#guide>Stöd och Vägledning</h3>
+<h3 id="#guide">Stöd och vägledning</h3>
 
   <div class="report">
 
@@ -83,8 +87,6 @@ layout: page
   <div class="course">
   <h4>Utbildningsmaterial Öppna Data</h4>
   <p>Länk: <a href="http://akrodata.se/utbildningsmaterial-oppna-data/">Akrodata.se</a></p>
-  <h4>Utbildning i Länkade Öppna Data</h4>
-  <p>Länk: <a href="http://lankadedata.se/dcat-utbildning/">Lankadedata.se</a></p>
   <h4>Länkade Öppna Data i Teori och Praktik</h4>
   <p>Länk: <a href="http://lankadedata.se/lod-utbildning">Lankadedata.se</a></p>
   <h4>Utbildning i att beskriva datamängder med DCAT-AP</h4>
@@ -95,7 +97,7 @@ layout: page
   <p>Länk: <a href="http://skl.se/naringslivarbetedigitalisering/digitalisering/digitaldelaktighetoppenhet/oppnadata/inspirationgodaexempel/intervjueroppnadata.6993.html">SKL.se</a></p>
   </div>
 
-<h3 id="#strategi>Strategier</h3>
+<h3 id="#strategi">Strategier</h3>
 <div class="report">
   <h4>Good basic data for Everyone (Danmark, 2012)</h4>
   <p>Länk: <a href="http://uk.fm.dk/publications/2012/good-basic-data-for-everyone/~/media/Publikationer/Imported/2012/Gode%20grunddata%20til%20alle/BasicData_UK_web_2012.10.08.ashx">2015: The Impact of open data –a preliminary study - Ministry of Finance publications– 15b/2015 (Finland)</a></p>
@@ -104,19 +106,17 @@ layout: page
   <h4>Fler Rapporter - Open Data Research Network</h4>
   <p>Länk: <a href="http://www.opendataresearch.org/reports">Open Data Research Network</a></p>
   </div>
-<div class"question">
 <h2 class="section-heading">Vet du någon rapport som inte listas så hör av dig!</h2>
-    </div>
 </div>
     <div class="col-md-4">
       <h2>Kategorier</h2>
       <ul>
         <li><a href="#varde">Värdeskapande</a></li>
         <li><a href="#transparens">Transparens</a></li>
-        <li><a href="#demokrati">Demokrati & Ansvarsskydlighet</a></li>
+        <li><a href="#demokrati">Demokrati</a></li>
         <li><a href="#integritet">Integritet</a></li>
         <li><a href="#analys">Situationsanalys</a></li>
-        <li><a href="#guide">Stöd, Guider och Vägledning</a></li>
+        <li><a href="#guide">Stöd, guider och vägledningar</a></li>
         <li><a href="#strategi">Strategier</a></li>
         </ul>
       </div>

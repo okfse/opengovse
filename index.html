@@ -6,9 +6,12 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h2>Opengov.se - Din ingång till initiativ i Sverige som ökar insyn i offentlig sektor!</h2>
-      <p>Här hittar du information om projekt, rapporter, aktiviteter och initiativ som hjälper dig öka insyn i offentlig sektor i Sverige!</p>
-      <h3 id="news">Nyheter OpenGov.se</h3>
+      <h2>Opengov.se - samlingsplats för initiativ inom öppna data och transparens i Sverige</h2>
+      <p>Här hittar du information om projekt, rapporter, aktiviteter och
+      initiativ som hjälper dig öka insyn i offentlig sektor i Sverige.</p>
+      <p>Har du tips om projekt som inte finns med här så tipsa gärna oss i <a href="https://www.facebook.com/groups/opengov/">Facebookgruppen</a>, eller på <a href="https://twitter.com/opengov_se">Twitter</a>.</p>
+      <p>Saknar du den gamla sajten så har den <a href="/opengov-se-pre2016.zip">arkiverats här (zipfil)</a>.</p>
+      <h3 id="news">Nyheter</h3>
       <ul class="news">
           {% for post in site.posts %}
             <li>
@@ -17,10 +20,7 @@ layout: default
             </li>
           {% endfor %}
     </ul>
-    </div>
-    <div class="col-sm-6">
-      <h6>Nyhetsplatsen</h6>
-      <div class="news">
+    <h3 id="channels">I andra kanaler</h3>
         <ul>
          <li><a href="http://planet.okfn.org">Open Knowledge Internationella samlade bloggflöde</a> / <a href="http://planet.okfn.org/feed/">(RSS)</a></li>
          <li><a href="http://se.okfn.org/blog/">Open Knowledge Sveriges Blogg</a> / <a href="http://se.okfn.org/blog/feed/">(RSS)</a></li>
@@ -28,6 +28,14 @@ layout: default
          <li><a href="https://twitter.com/hashtag/opengovse">#OpenGovSe på Twitter</a></li>
          <li><a href="https://quitter.se/api/statusnet/tags/timeline/opengov.rss">#OpenGov på Quitter (RSS)</a></li>
          <li><a href="{{ site.baseurl }}/feed.xml" data-scroll >OpenGov.se RSS</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-6">
+      <div class="news">
+        <div class="twitter">
+          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/opengov_se" data-widget-id="686200468649934850">Tweets by @opengov_se</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </div>
     </div>
   </div>

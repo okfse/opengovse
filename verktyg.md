@@ -8,6 +8,26 @@ layout: page
         <div class="col-md-8">
             <h1>Tjänster och verktyg</h1>
             <p>Här hittar du information om verktyg, applikationer och andra initiativ som arbetar med öppna data, eller bidrar till ökad öppenhet där du har möjlighet att bidra och se värdet i öppenhet.</p>
+            
+            <h2 id="beskriva">Beskriva och förvalta öppna data</h2>
+            <p>För att beskriva och förvalta öppna data finns följande verktyg och modeller.</p>
+            
+            <div class="tool" id="maturity-model">
+            	<h3 lang="en">Open Data Maturity Model (2015)</h3>
+            	<p>Länk: <a lang ="en" href="https://theodi.org/guides/maturity-model">ODI Open Data Maturity Model</a></p>
+            	<p>Ett verktyg och en mognadsmodell för organisationer som vill utvärdera sin egen hantering av öppna data.</p>
+            </div>
+            
+            <div class="tool">
+            	<h3>DCAT-AP Manager</h3>
+            	<p>Länk: <a href="https://dcat-editor.com/manager/">dcat-editor.com/manager</a></p>
+            	<p>DCAT-AP manager är ett verktyg för att skapa och hantera beskrivningar av kataloger och datamängder enligt standarden <a href="https://joinup.ec.europa.eu/asset/dcat_application_profile/description">"DCAT application profile for data portals in Europe"</a>.<br>Verktyget utvecklas av <a href="http://www.metasolutions.se">MetaSolutions AB</a> och tillhandahålls kostnadsfritt på dcat-editor.com.</p>
+            </div>
+            <div class="tool">
+            	<h3>EntryScape Catalog</h3>
+            	<p>Länk: <a href="http://www.entryscape.com">entryscape.com</a></p>
+            	<p>EntryScape Catalog är en öppen källkods-lösning för att beskriva och hantera datamängder i datakataloger. Lösningen stödjer DCAT-AP och erbjuder automatisk generering av APIer utifrån tabulär data.<br>Lösningen utvecklas av <a href="http://www.metasolutions.se">MetaSolutions AB</a> och erbjuds som molntjänst.</p>
+            </div>
 
             <h2 id="begar">Begär information</h2>
             <p>För att ta del av handlingar och data finns följande verktyg:</p>
@@ -102,6 +122,7 @@ layout: page
         <div class="col-md-4">
             <h2>Kategorier</h2>
             <ul>
+            	<li><a href="#beskriva">Beskriva och förvalta öppna data</a></li>
                 <li><a href="#begar">Begär information</a></li>
                 <li><a href="#oversikt">Få översikt</a></li>
                 <li><a href="#granska">Granska staten</a></li>
