@@ -53,7 +53,7 @@ layout: page
 
 <div class="report">
   <h4>MyData – A Nordic Model for human-centered personal data management and processing (2014)</h4>
-  <p>Länk: <a href="https://www.lvm.fi/docs/en/3759139_DLFE-27119.pdf">lvm.fi</a></p>
+  <p>Länk: <a href="http://www.lvm.fi/documents/20181/859937/MyData-nordic-model/2e9b4eb0-68d7-463b-9460-821493449a63?version=1.0">lvm.fi</a></p>
   </div>
 
 <h3 id="#analys">Situationsanalys</h3>
