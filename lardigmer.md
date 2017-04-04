@@ -60,7 +60,15 @@ layout: page
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B3PQaTyoLRc" frameborder="0" allowfullscreen></iframe>
       </div>
 <div class="book">
-          <h3>Boken "Open Government" (2010)</h3>
+          <h3>Boken "Öppna Myndigheten" (2014)</h3>
+          <p>Länk: <a href="http://www.oppnamyndigheten.se">OppnaMyndigheten.se</a></p>
+          <p>Om boken, citerat från bokens hemsida: "Öppna Myndigheten vänder sig till alla som arbetar med IT, kommunikation och informationshantering i offentlig sektor. Boken tar ett helhetsgrepp på det regelkomplex som styr myndigheternas arbete i en digitaliserad värld." Skriven av <a href="http://www.kjfe.se/">Johan Eriksson</a>.</p>
+<div class="book">
+          <h3>Boken "Open Data Now" (2010)</h3>
+          <p>Länk: <a href="http://www.opendatanow.com/">OpenDataNow.com</a></p>
+          <p>“In Open Data Now, Joel Gurin presents a strategy for success in the coming era of massive data. Open Data gives business unprecedented power to understand customers and earn their trust. Any organization that wants to connect with the people it serves needs these lessons.   Open Data Now is an instant classic – essential reading for entrepreneurs, small business owners, corporate executives, or anyone who needs to understand this new information reality.” - Daniel Goleman. Licens på citat: CC-BY-SA 3.0 via <a href="http://www.opendatanow.com/">OpenDataNow.com</a></p>
+      </div>
+      	  <h3>Boken "Open Government" (2010)</h3>
           <p>Länk: <a href="https://github.com/oreillymedia/open_government">GitHub.com</a></p>
           <p>Boken Open Government var en av de första böckerna som gavs ut om OpenGov-rörelsen och dess filosofi. Ladda ned boken fritt via länken.</p>
       </div>
