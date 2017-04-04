@@ -69,6 +69,8 @@ layout: page
 
   <div class="report">
 
+  <h4>Öppna data – En guide för beslutsfattare</h4>
+    <p>Länk: <a href="https://www.iis.se/docs/IIS-rapport-oppna-data-en-guide-for-beslutsfattare-webb.pdf">IIS.se</a></p>
     <h4>Från byråkrati till innovation - En introduktion till att arbeta med öppna data</h4>
     <p>Länk: <a href="http://www.handelskammaren.com/uploads/media/Fr%C3%A5n_byr%C3%A5krati_till_innovation_130311.pdf">Lub.Lu.se</a></p>
     <h4>Open Data Handbook</h4>
