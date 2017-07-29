@@ -6,6 +6,7 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="col-md-8">
+
       <h1>Lär dig mer</h1>
 	     <h2 id="intro">Introduktion genom olika medium</h2>
 	<p>Här är finns introducerande tips och material för att lära dig mer om OpenGov-rörelsen och aspekter av öppenhet och transparens.</p>
@@ -152,5 +153,6 @@ layout: page
           <li><a href="#avancerat">Avancerat</a></li>
           <li><a href="#offentlig">För Offentlig sektor</a></li>
       </ul>
-    </div>
+</div>
+ </div>
  </div>
