@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Principer för öppen digital offentlig information
 permalink: /sidor/oppen-data/
 ---
 <!-- page content start -->
@@ -7,9 +8,10 @@ permalink: /sidor/oppen-data/
 <div class="container">
 <div class="row">
 <div class="col-md-8">
-<h1>Principer för öppen digital offentlig information</h1>
+<h1>{{ page.title }}</h1>
 							
 	<p>Internet är den moderna världens offentliga rum och genom det har regeringar nu möjlighet att bättre förstå medborgarnas önskemål. Samtidigt kan medborgare enklare delta i dialog med den offentliga förvaltningen oberoende av tid och plats. Information bli mer värdefull när den delas med många och mindre värdefull när den läggs på hög bakom stängda dörrar. Öppen digital offentlig information förbättrar möjligheterna till dialog om vårt samhälle, ger fler möjlighet att ta del av och skapa kultur och möjliggör insyn i hur det offentliga förbrukar medel och presterar.</p>
+
 <h2>Sju principer<br></h2>
 <p>För att maximera nyttan av öppen digital offentlig information bör följande villkor vara uppfyllda:</p>
 <ol>

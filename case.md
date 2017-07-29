@@ -1,12 +1,13 @@
 ---
 layout: page
+title: Användningsfall
 ---
 <!-- page content start -->
 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h1>Succéer</h1>
+<h1>{{ page.title }}</h1>
       <p>Här kan du läsa om goda exempel där användare använt sig av verktyg och metoder för transparens och öppehet!</p>
       <h3>Bidra med exempel på historier och erfarenheter!</h3>
       </br>

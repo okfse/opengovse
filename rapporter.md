@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Rapporter och presentationer
 ---
 <!-- page content start -->
 
@@ -7,7 +8,7 @@ layout: page
   <div class="row">
     <div class="col-md-8">
 
-      <h1>Rapporter och presentationer</h1>
+<h1>{{ page.title }}</h1>
 
       <p>På denna sida hittar du länkar till rapporter och forskningsartiklar om öppna data och öppen förvaltning. Känner du till någon rapport som inte är listad? Tipsa oss på twitter eller <a href="https://github.com/okfse/opengovse/issues">lägg ett ärende på Github</a>. Se även <a href="http://www.opendataresearch.org/emergingimpacts" lang="en">Open data research network</a> och deras sammanställnng av forskning om öppna data.</p>
 
@@ -108,6 +109,7 @@ layout: page
   <h4>Fler Rapporter - Open Data Research Network</h4>
   <p>Länk: <a href="http://www.opendataresearch.org/reports">Open Data Research Network</a></p>
   </div>
+
 <h2 class="section-heading">Vet du någon rapport som inte listas så hör av dig!</h2>
 </div>
     <div class="col-md-4">
