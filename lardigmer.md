@@ -126,12 +126,11 @@ layout: page
 <div class="book">
           <h3>Öppna Licenser enligt OpenDefinition</h3>
           <p>Länk: <a href="http://opendefinition.org/licenses/">OpenDefinition.org</a></p>
-          <p>Här finns en lista som hjälper dig att </p>
+          <p>Här finns en lista som hjälper dig att hitta licenser som är kompatibla med opendefinition.</p>
         </div>
 <div class="book">
           <h3>De åtta principerna för offentlig sektor enligt OpenDefinition</h3>
           <p>Länk: <a href="http://opendefinition.org/government/">OpenDefinition.org</a></p>
-          <p>Här finns en lista som hjälper dig att </p>
         </div>
 <div class="resource">
           <h3>Open Government-initiativet i USA</h3>
@@ -151,7 +150,7 @@ layout: page
           <li><a href="#material">Läromaterial</a></li>
           <li><a href="#natverk">Nätverk</a></li>
           <li><a href="#avancerat">Avancerat</a></li>
-          <li><a href="#offentlig">För Offentlig Sektor</a></li>
+          <li><a href="#offentlig">För Offentlig sektor</a></li>
       </ul>
     </div>
  </div>
