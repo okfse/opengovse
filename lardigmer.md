@@ -116,7 +116,7 @@ title: Lär dig mer om öppen förvaltning
 
 <div class="network">
 <h3>Open Knowledge Sverige</h3>
-<p>Länk: <a href="https://discuss.okfn.org">Open Knowledge Diskussionsforum</a></p><p><a href="https://discuss.okfn.org/c/local-groups/okse">Diskussionsforumets Sverige-del</a></p><p><a href="https://lists.okfn.org/mailman/listinfo/okfn-se">Svenska e-postlistan</a></p>
+<p>Länk: <a href="https://discuss.okfn.org">Open Knowledge Diskussionsforum</a></p><p><a href="https://discuss.okfn.org/c/local-groups/okse">Diskussionsforumets Sverige-del</a></p>
 <p>Open Knowledge nätverk är globalt och har experter och engagerade i frågor om öppenhet inom i princip alla områden. En bra möjlighet för dig som är nyfiken på fler områden och aspekter av OpenGov.</p>
 </div>
 
