@@ -24,9 +24,9 @@ layout: page
             	<p>DCAT-AP manager är ett verktyg för att skapa och hantera beskrivningar av kataloger och datamängder enligt standarden <a href="https://joinup.ec.europa.eu/asset/dcat_application_profile/description">"DCAT application profile for data portals in Europe"</a>.<br>Verktyget utvecklas av <a href="http://www.metasolutions.se">MetaSolutions AB</a> och tillhandahålls kostnadsfritt på dcat-editor.com.</p>
             </div>
             <div class="tool">
-            	<h3>EntryScape Catalog</h3>
+            	<h3>EntryScape</h3>
             	<p>Länk: <a href="http://www.entryscape.com">entryscape.com</a></p>
-            	<p>EntryScape Catalog är en öppen källkods-lösning för att beskriva och hantera datamängder i datakataloger. Lösningen stödjer DCAT-AP och erbjuder automatisk generering av APIer utifrån tabulär data.<br>Lösningen utvecklas av <a href="http://www.metasolutions.se">MetaSolutions AB</a> och erbjuds som molntjänst.</p>
+            	<p>EntryScape är mjukvara tillgänglig som öppen källkod för användaren att beskriva och hantera datamängder, informationsmängder och vokabulärer. Lösningen stödjer DCAT-AP 2, datatjänster och erbjuder automatisk generering av APIer utifrån tabulär data.<br>Lösningen utvecklas av <a href="http://www.metasolutions.se">MetaSolutions AB</a> och erbjuds som molntjänst men kan också driftas själv.</p>
             </div>
 
             <h2 id="begar">Begär information</h2>
@@ -38,9 +38,9 @@ layout: page
             <p>Den här sajten är till för dig som vill använda offentlighetsprincipen för att få ut handlingar och uppgifter från myndigheter. Här hittar du förklaringar till de viktiga begreppen, argument som du kan använda när myndigheterna säger nej och rättsfallen som du kan hänvisa till. Sajten uppdateras löpande med nya domar och JO-beslut.</p>
              </div>
         <div class="tool">
-            <h3>Fråga Staten</h3>
-            <p>Länk: <a href="https://fragastaten.se/sv">FrågaStaten.se</a></p>
-            <p>FrågaStaten.se är en överskådlig plattform som göra det säkert, lätt och bekvämt att använda offentlighetsprincipen. Plattformen tillåter användare att begära ut och ta del av allmänna handlingar genom en digitaliserad och enkel portal. Ju mer du använder den desto mer hjälper du att minska administrationen för offentlig sektor. Projektet är icke-vinstdrivande och verkar för en stark och digital Offentighetsprincip.</p>
+            <h3>Handlingar.se</h3>
+            <p>Länk: <a href="https://handlingar.se/sv">Handlingar.se</a></p>
+            <p>Handlingar.se är en överskådlig plattform som göra det säkert, lätt och bekvämt att använda offentlighetsprincipen. Plattformen tillåter användare att begära ut och ta del av allmänna handlingar genom en digitaliserad och enkel portal. Ju mer du använder den desto mer hjälper du att minska administrationen för offentlig sektor. Projektet är icke-vinstdrivande och verkar för en stark och digital offentighetsprincip.</p>
 	           </div>
 	       <h2 id="oversikt">Få översikt</h2>
          <p>Upptäck dessa projekt för att få översikt på situationen kring transparens och öppenhet i Sverige!</p>
