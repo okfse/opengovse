@@ -27,6 +27,19 @@ redirect_from:
     {% for report in category.items %}
     <article class="card" data-region="{{ report.region }}" data-status="{{ report.status }}">
       <h3><a href="{{ report.url }}" rel="noopener">{{ report.title }}</a></h3>
+      {% if report.fallback_url %}
+      <p class="card-fallback">
+        <a href="{{ report.fallback_url }}" rel="noopener">Alternativ källa</a>
+        {% unless report.primary_ok %}<span class="card-note">(primär länk trasig)</span>{% endunless %}
+      </p>
+      {% endif %}
+      {% if report.mirror %}
+      <p class="card-mirror">
+        <a href="{{ report.mirror | relative_url }}">
+          {% if report.mirror_format == 'pdf' %}Lokal kopia (PDF){% else %}Lokal kopia (arkiverad sida){% endif %}
+        </a>
+      </p>
+      {% endif %}
       <div class="card-meta">
         <span class="tag tag-{{ report.region }}">{{ report.region }}</span>
         {% if report.year %}<span class="tag">{{ report.year }}</span>{% endif %}
