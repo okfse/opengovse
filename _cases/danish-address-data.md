@@ -3,7 +3,7 @@
 title: Värdet av dansk adressdata
 region: nordics
 status: historical
-link: http://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf
+link: https://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf
 year: 2010
 mirror: "/assets/reports/the-value-of-danish-address-data-2010-2010.pdf"
 mirror_format: pdf

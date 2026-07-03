@@ -1,8 +1,8 @@
 {
-  "http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf": {
+  "https://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf": {
     "local": "assets/reports/the-impact-of-open-data-2015-2015.pdf",
     "format": "pdf",
-    "resolved_url": "http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf",
+    "resolved_url": "https://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf",
     "resolved_via": "primary",
     "fallback_url": null,
     "primary_ok": true,
@@ -56,7 +56,7 @@
     "primary_http": "ERR",
     "unresolved": true
   },
-  "http://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf": {
+  "https://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf": {
     "local": "assets/reports/the-value-of-danish-address-data-2010-2010.pdf",
     "format": "pdf",
     "resolved_url": "https://opendatatoolkit.worldbank.org/content/dam/sites/data/odk/documents/value-assessment-danish-address-data-uk-2010-07-07b.pdf",
@@ -69,10 +69,10 @@
     "verified_at": "2026-07-04",
     "unresolved": false
   },
-  "http://www.ifosslr.org/ifosslr/article/view/105/186": {
+  "https://www.ifosslr.org/ifosslr/article/view/105/186": {
     "local": "assets/reports/ensuring-utmost-transparency-free-software-and-open-standards-under-the-rules-of-2012.html",
     "format": "html",
-    "resolved_url": "http://www.ifosslr.org/ifosslr/article/view/105/186",
+    "resolved_url": "https://www.ifosslr.org/ifosslr/article/view/105/186",
     "resolved_via": "primary",
     "fallback_url": null,
     "primary_ok": true,
@@ -95,10 +95,10 @@
     "verified_at": "2026-07-04",
     "unresolved": false
   },
-  "http://beyondtransparency.org/": {
+  "https://beyondtransparency.org/": {
     "local": "assets/reports/open-data-and-the-future-of-civic-innovation-2013.html",
     "format": "html",
-    "resolved_url": "http://beyondtransparency.org/",
+    "resolved_url": "https://beyondtransparency.org/",
     "resolved_via": "primary",
     "fallback_url": null,
     "primary_ok": true,

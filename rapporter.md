@@ -51,4 +51,4 @@ redirect_from:
 </section>
 {% endfor %}
 
-<p>Se även <a href="http://www.opendataresearch.org/emergingimpacts" lang="en">Open Data Research Network</a>.</p>
+<p>Se även <a href="https://www.opendataresearch.org/emergingimpacts" lang="en">Open Data Research Network</a>.</p>
