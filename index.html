@@ -1,42 +1,86 @@
 ---
 layout: default
+title: OpenGov.se
+permalink: /
 ---
-<!-- page content start -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <h2>Opengov.se - samlingsplats för initiativ inom öppna data och transparens i Sverige</h2>
-      <p>Här hittar du information om projekt, rapporter, aktiviteter och
-      initiativ som hjälper dig öka insyn i offentlig sektor i Sverige.</p>
-      <p>Har du tips om projekt som inte finns med här så tipsa gärna oss i <a href="https://www.facebook.com/groups/opengov/">Facebookgruppen</a>, eller på <a href="https://twitter.com/opengov_se">Twitter</a>.</p>
-      <p>Saknar du den gamla sajten så har den <a href="/opengov-se-pre2016.zip">arkiverats här (zipfil)</a>.</p>
-      <h3 id="news">Nyheter</h3>
-      <ul class="news">
-          {% for post in site.posts %}
-            <li>
-              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-              {{ post.excerpt }}
-            </li>
-          {% endfor %}
-    </ul>
-    <h3 id="channels">I andra kanaler</h3>
-        <ul>
-         <li><a href="http://planet.okfn.org">Open Knowledge Internationella samlade bloggflöde</a> / <a href="http://planet.okfn.org/feed/">(RSS)</a></li>
-         <li><a href="http://se.okfn.org/blog/">Open Knowledge Sveriges Blogg</a> / <a href="http://se.okfn.org/blog/feed/">(RSS)</a></li>
-         <li><a href="https://twitter.com/hashtag/opengov">#OpenGov på Twitter</a></li>
-         <li><a href="https://twitter.com/hashtag/opengovse">#OpenGovSe på Twitter</a></li>
-         <li><a href="https://quitter.se/api/statusnet/tags/timeline/opengov.rss">#OpenGov på Quitter (RSS)</a></li>
-         <li><a href="{{ site.baseurl }}/feed.xml" data-scroll >OpenGov.se RSS</a></li>
-        </ul>
-    </div>
-    <div class="col-sm-6">
-      <div class="news">
-        <div class="twitter">
-          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/opengov_se" data-widget-id="686200468649934850">Tweets by @opengov_se</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
-    </div>
+<section class="hero container">
+  <h1>Öppna data och transparens i Sverige</h1>
+  <p class="hero-lead">
+    OpenGov.se samlar verktyg, resurser och initiativ som ökar insyn i offentlig sektor —
+    med fokus på Sverige, Norden och Europa.
+  </p>
+  <div class="quick-links">
+    <a class="quick-link" href="{{ '/verktyg.html' | relative_url }}">
+      <strong>Verktyg</strong>
+      <span>Begär handlingar, granska och interagera</span>
+    </a>
+    <a class="quick-link" href="{{ '/sverige.html' | relative_url }}">
+      <strong>Sverige</strong>
+      <span>Portaler, myndigheter och svensk kontext</span>
+    </a>
+    <a class="quick-link" href="{{ '/norden-eu.html' | relative_url }}">
+      <strong>Norden &amp; EU</strong>
+      <span>Gränsöverskridande data och regelverk</span>
+    </a>
+    <a class="quick-link" href="{{ '/lardigmer.html' | relative_url }}">
+      <strong>Lär dig mer</strong>
+      <span>Guider, filmer och nätverk</span>
+    </a>
   </div>
+</section>
+
+<div class="container page-grid">
+  <div class="main-content">
+    <section class="section">
+      <h2>Aktuellt</h2>
+      <ul class="news-list">
+        {% for item in site.data.news %}
+        <li>
+          <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+          <time datetime="{{ item.date }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+          <p>{{ item.excerpt }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Nyheter från bloggen</h2>
+      <ul class="news-list">
+        {% for post in site.posts limit:3 %}
+        <li>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="section" id="utvalda-verktyg">
+      <h2>Utvalda verktyg</h2>
+      {% assign featured = site.tools | where: "featured", true | sort: "featured_order" %}
+      <div class="card-grid">
+        {% for tool in featured %}
+        {% include card.html title=tool.title url=tool.link description=tool.content region=tool.region status=tool.status category=tool.category %}
+        {% endfor %}
+      </div>
+      <p><a href="{{ '/verktyg.html' | relative_url }}#utvalda-verktyg">Se alla verktyg &rarr;</a></p>
+    </section>
+  </div>
+
+  <aside class="sidebar">
+    <h2>Kanaler</h2>
+    <ul>
+      <li><a href="https://okfn.se/blog/">OK Sverige-bloggen</a></li>
+      <li><a href="https://www.facebook.com/groups/opengov/">Facebookgruppen</a></li>
+      <li><a href="https://github.com/okfse/opengovse/issues">Bidra på GitHub</a></li>
+      <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+    </ul>
+    <h2>Arkiv</h2>
+    <ul>
+      <li><a href="{{ '/arkiv.html' | relative_url }}">Historiskt material</a></li>
+      <li><a href="/opengov-se-pre2016.zip">Sajt före 2016 (zip)</a></li>
+    </ul>
+  </aside>
 </div>

@@ -1,34 +1,19 @@
-<!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
-<div id="ok-panel" class="closed"><iframe src="//assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no" title="Länkar till Open Knowledge övriga initiativ"></iframe></div>
-
-<nav class="navbar navbar-static-top">
-  <div class="container">
-    <a class="ok-ribbon" href="https://okfn.org/"><img src="//okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand has-icon" href="{{site.baseurl}}">
-        <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
-        <span class="text">opengov.se</span>
-      </a>
-      <span class="release badge">alpha</span>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="{{ site.baseurl }}/lardigmer.html" data-scroll >Lär dig mer</a></li>
-        <li><a href="{{ site.baseurl }}/rapporter.html" data-scroll >Rapporter</a></li>
-        <li><a href="{{ site.baseurl }}/verktyg.html" data-scroll >Tjänster och verktyg</a></li>
-        <li><a href="{{ site.baseurl }}/case.html" data-scroll >Case</a></li>
-        <li><a href="{{ site.baseurl }}/hitta-data.html" data-scroll >Hitta data</a></li>
-        <li><a href="{{ site.baseurl }}/om.html" data-scroll >Om</a></li>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">opengov.se</a>
+    <a class="ok-link" href="https://okfn.se/">Open Knowledge Sverige</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Meny</button>
+    <nav class="site-nav" id="site-nav" aria-label="Huvudnavigering">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li>
+          <a href="{{ item.url | relative_url }}"
+             {% if page.url == item.url or page.permalink == item.url %}aria-current="page"{% endif %}>
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
       </ul>
-    </div><!--/.nav-collapse -->
+    </nav>
   </div>
-</nav>
+</header>

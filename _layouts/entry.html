@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<div class="entry-header">
+  <div class="card-meta">
+    {% if page.region %}<span class="tag tag-{{ page.region }}">{{ page.region }}</span>{% endif %}
+    {% if page.status == 'archived' %}<span class="tag tag-archived">Arkiv</span>{% endif %}
+    {% if page.category %}<span class="tag">{{ page.category }}</span>{% endif %}
+  </div>
+</div>
+{{ content }}
+{% if page.link %}
+<p><a class="entry-link" href="{{ page.link }}" rel="noopener">Besök {{ page.title }} &rarr;</a></p>
+{% endif %}

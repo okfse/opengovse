@@ -1,4 +1,7 @@
 _site
 .sass-cache
+.vendor
+vendor/bundle
+.bundle
 .md~
 .html~

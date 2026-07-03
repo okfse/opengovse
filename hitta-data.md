@@ -1,18 +1,39 @@
 ---
 layout: page
 title: Hitta data
+permalink: /hitta-data.html
+redirect_from:
+  - /hitta-data/
 ---
-<!-- page content start -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
 <h1>{{ page.title }}</h1>
-      <h2>På följande sidor kan du hitta öppna data:</h2>
-      <p><a href="http://xn--ppnadata-m4a.se/">ÖppnaData.se</a> - denna hemsida fungerar som en katalog som automatiskt samlar in öppna datakällor i Sverige från offentlig sektor och andra organisationer. För att det ska fungera behöver de använda sig av dataportaler som fungerar med metadata (DCAT-AP) som exempelvis den öppna varianten <a href="http://ckan.org">CKAN</a>.</p>
-      <p><a href="https://open-data.europa.eu/en/data">Europeiska Unionens öppna data-portal</a> - en portal av Europeiska Unionen kring öppna data.</p>
-      <p><a href="http://www.europeandataportal.eu/">Europeiska dataportalen</a> - fungerar som en katalog för aggregering av medlemsstaternas öppna datamängder.</p>
-      <p></p>
-    </div>
-  </div>
+<p>På följande portaler kan du hitta och återanvända öppna data:</p>
+
+<div class="card-grid">
+  <article class="card">
+    <h3><a href="https://www.oppnadata.se/">ÖppnaData.se</a></h3>
+    <p>Katalog som samlar svenska öppna datakällor med DCAT-AP-metadata.</p>
+    <div class="card-meta"><span class="tag tag-sweden">Sverige</span></div>
+  </article>
+  <article class="card">
+    <h3><a href="https://data.europa.eu/en">data.europa.eu</a></h3>
+    <p>Europeiska unionens officiella öppna dataportal.</p>
+    <div class="card-meta"><span class="tag tag-eu">EU</span></div>
+  </article>
+  <article class="card">
+    <h3><a href="https://www.trafiklab.se/">Trafiklab</a></h3>
+    <p>Öppna API:er för kollektivtrafik i Sverige.</p>
+    <div class="card-meta"><span class="tag tag-sweden">Sverige</span></div>
+  </article>
+  <article class="card">
+    <h3><a href="https://data.norge.no/">data.norge.no</a></h3>
+    <p>Norges nationella dataportal.</p>
+    <div class="card-meta"><span class="tag tag-nordics">Norden</span></div>
+  </article>
+  <article class="card">
+    <h3><a href="https://www.avoindata.fi/">avoindata.fi</a></h3>
+    <p>Finlands öppna dataportal.</p>
+    <div class="card-meta"><span class="tag tag-nordics">Norden</span></div>
+  </article>
 </div>
+
+<p>Se även <a href="{{ '/sverige.html' | relative_url }}">Sverige</a> och <a href="{{ '/norden-eu.html' | relative_url }}">Norden &amp; EU</a> för mer kontext.</p>

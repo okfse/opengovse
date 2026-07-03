@@ -1,0 +1,55 @@
+name: Build and deploy site
+
+on:
+  push:
+    branches: [gh-pages, main, master]
+  pull_request:
+    branches: [gh-pages, main, master]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.4"
+          bundler-cache: true
+          working-directory: .
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace
+
+      - name: HTML Proofer
+        run: bundle exec htmlproofer ./_site --disable-external --allow-hash-href --no-enforce-https
+
+      - name: Check tool links
+        run: ./scripts/check-tool-links.sh
+        continue-on-error: true
+
+      - name: Upload Pages artifact
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/gh-pages' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/gh-pages' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

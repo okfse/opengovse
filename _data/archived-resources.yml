@@ -1,0 +1,24 @@
+- title: "Vad är öppet? (se.okfn.org)"
+  url: "https://web.archive.org/web/20190101000000*/http://se.okfn.org/opendata/"
+  description: "Tidigare svensk introduktion på Open Knowledge Sveriges gamla domän. Ersatt av [okfn.se/oppnadata](https://okfn.se/oppnadata/)."
+  category: läromaterial
+
+- title: "Den öppna definitionen (svenska)"
+  url: "https://web.archive.org/web/20191201000000*/https://opendefinition.org/od/2.1/sv/"
+  description: "Svensk översättning av Open Definition 2.1 som inte längre finns på opendefinition.org. Aktuell version på [engelska](https://opendefinition.org/od/2.1/)."
+  category: läromaterial
+
+- title: "EU:s lärcentrum (gammal URL)"
+  url: "https://web.archive.org/web/20230101000000*/https://data.europa.eu/en/support/learning-center"
+  description: "Tidigare adress till Europeiska dataportalens utbildningsmaterial. Ersatt av [data.europa.eu/academy](https://data.europa.eu/en/academy)."
+  category: läromaterial
+
+- title: "The Internet's Own Boy — Aaron Swartz"
+  url: "https://www.youtube.com/watch?v=vXr-2hwTk58"
+  description: "Dokumentär om Aaron Swartz och öppen tillgång till information. Inbäddningen fungerar inte längre på webbplatsen — se filmen direkt på YouTube."
+  category: film
+
+- title: "OK-diskussion — Sverige"
+  url: "https://web.archive.org/web/20190101000000*/https://discuss.okfn.org/c/local-groups/okse"
+  description: "Tidigare diskussionskategori för Open Knowledge Sverige på discuss.okfn.org (nedlagd)."
+  category: nätverk
