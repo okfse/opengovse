@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-<html lang="sv">
-
+<html lang="{{ site.lang | default: 'sv' }}">
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+    <main class="page-content">
+      {{ content }}
+    </main>
     {% include footer.html %}
-
   </body>
-
 </html>

@@ -1,26 +1,27 @@
 ---
 layout: page
 title: Om opengov.se
+permalink: /om.html
+redirect_from:
+  - /om/
 ---
-<!-- page content start -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
 <h1>{{ page.title }}</h1>
-      <p>OpenGov.se är ett öppet samarbetsprojekt som samlar resurser, organisationer och människor för att öka öppenhet och insyn i Sveriges offentliga sektor. Vill du eller din organisation stödja OpenGov.se? Hör av dig!</p>
-      </br>
-      <p>Kontakta oss via <a href="mailto:info[snabel-a]opengov.se">info[at]opengov.se</a> eller via våra svenska <a href="http://www.opengov.se/lardigmer.html#natverk">nätverk</a>. Skicka alla typer av bugganmälningar och funktionsförfrågningar till vår issue tracker på <a href="https://github.com/okfse/opengovse/issues">GitHub</a>.</p>
-      <p>Du hittar allt vårt material för allmän insyn via <a href="https://github.com/okfse/opengovse">GitHub</a>! Du kan också få en mer visuell översikt av arbetsprocessen så som saker att fixa  <a href="https://waffle.io/okfse/opengovse">här</a> via Waffle.io!</p>
-    </div>
-  </div>
-</div>
-
-<!--
-<div class="col-md-4">
-        <h2>Navigering</h2>
-        <ul>
-	        <li><a href="#om">om</a></li>
-        </ul>
-</div>
--->
+<p>
+  OpenGov.se ägs och drivs av
+  <a href="https://okfn.se/">Open Knowledge Sverige</a> och samlar resurser, organisationer och människor
+  för att öka öppenhet och insyn i Sveriges offentliga sektor.
+</p>
+<p>
+  Vi välkomnar partners och sponsorer som vill stödja arbetet.
+  Läs mer om sajtens bakgrund i <a href="{{ '/arkiv.html#historia' | relative_url }}">arkivet</a>.
+</p>
+<p>
+  Kontakta oss via <a href="mailto:info@opengov.se">info@opengov.se</a> eller via
+  <a href="{{ '/lardigmer.html#natverk' | relative_url }}">nätverken</a> listade under Lär dig mer.
+  Buggar och förslag hanteras i
+  <a href="https://github.com/okfse/opengovse/issues">GitHub Issues</a>.
+</p>
+<p>
+  Allt material finns i <a href="https://github.com/okfse/opengovse">öppen källkod på GitHub</a>.
+  Sajten byggs med Jekyll 4 och publiceras via GitHub Actions.
+</p>

@@ -1,0 +1,23 @@
+<article class="card" data-region="{{ include.region }}" data-status="{{ include.status }}">
+  <h3>
+    {% if include.url %}
+    <a href="{{ include.url }}">{{ include.title }}</a>
+    {% else %}
+    {{ include.title }}
+    {% endif %}
+  </h3>
+  <p>{{ include.description | markdownify | strip_html | strip | truncate: 220 }}</p>
+  <div class="card-meta">
+    {% if include.region %}
+    <span class="tag tag-{{ include.region }}">{{ include.region }}</span>
+    {% endif %}
+    {% if include.status == 'archived' %}
+    <span class="tag tag-archived">Arkiv</span>
+    {% elsif include.status == 'active' %}
+    <span class="tag tag-active">Aktiv</span>
+    {% endif %}
+    {% if include.category %}
+    <span class="tag">{{ include.category }}</span>
+    {% endif %}
+  </div>
+</article>

@@ -1,14 +1,66 @@
 # Site settings
-title: OpenGov.se - Din ingång till initiativ i Sverige som ökar insyn i offentlig sektor!
+title: OpenGov.se
 email: info@opengov.se
-description: > # this means to ignore newlines until "baseurl:"
-  Här hittar du information om projekt, aktiviteter och initiativ som gör Sverige till ett mer öppet samhälle med ökad transparens!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://okfse.github.io" # the base hostname & protocol for your site
+description: >
+  Din ingång till initiativ i Sverige som ökar insyn i offentlig sektor.
+  Här hittar du projekt, verktyg och resurser om öppna data, transparens och offentlighetsprincipen.
+baseurl: ""
+url: "https://opengov.se"
+lang: sv
 twitter_username: opengov_se
-github_username:  okfse
+github_username: okfse
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
 sass:
   sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+collections:
+  tools:
+    output: true
+    permalink: /verktyg/:name/
+  reports:
+    output: false
+  cases:
+    output: true
+    permalink: /case/:name/
+  resources:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: entry
+  - scope:
+      path: ""
+      type: cases
+    values:
+      layout: entry
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs/
+  - vendor/
+  - .ruby-version
+  - .bundle/
+  - css/
+  - _sass/

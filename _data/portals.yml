@@ -1,0 +1,35 @@
+sweden:
+  - name: dataportal.se
+    url: https://www.dataportal.se/
+    description: Nationell portal för datadelning och delning av metadata i Sverige.
+  - name: DIGG
+    url: https://www.digg.se/
+    description: Myndigheten för digital förvaltning — styrning av digitalisering och öppna data i Sverige.
+  - name: Riksdagens öppna data
+    url: https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/
+    description: Öppna data från Sveriges riksdag.
+  - name: SCB
+    url: https://www.scb.se/
+    description: Statistikmyndigheten — officiell statistik om Sverige.
+
+nordics:
+  - name: data.norge.no
+    url: https://data.norge.no/
+    description: Norges nationella portal för öppne data.
+  - name: avoindata.fi
+    url: https://www.avoindata.fi/
+    description: Finlands öppna dataportal.
+  - name: Danmarks dataportal
+    url: https://www.opendata.dk/
+    description: Nationell dataportal för Danmark.
+
+europe:
+  - name: data.europa.eu
+    url: https://data.europa.eu/en
+    description: Europeiska unionens officiella öppna dataportal.
+  - name: DCAT-AP
+    url: https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe
+    description: Metadatastandard för dataportaler i Europa.
+  - name: Open Government Partnership
+    url: https://www.opengovpartnership.org/country/sweden
+    description: Internationellt partnerskap för öppen förvaltning — Sverige deltar.

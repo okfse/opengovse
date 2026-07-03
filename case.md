@@ -1,30 +1,21 @@
 ---
 layout: page
 title: Användningsfall
+permalink: /case.html
+redirect_from:
+  - /case/
 ---
-<!-- page content start -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
 <h1>{{ page.title }}</h1>
-      <p>Här kan du läsa om goda exempel där användare använt sig av verktyg och metoder för transparens och öppehet!</p>
-      <h3>Bidra med exempel på historier och erfarenheter!</h3>
-      </br>
-      <p><b>Har du ett gott exempel att dela? Berätta gärna genom att kontakta oss via <a href="mailto:info[snabel-a]opengov.se">info[snabel-a]opengov.se</a> eller bidra direkt via <a href="https://github.com/okfse/opengovse">GitHub</a>!</b></p>
-    </div>
-  </div>
+<p>Goda exempel där öppen data, transparens och medborgarinflytande skapat konkret nytta.</p>
+
+<div class="card-grid">
+  {% for case in site.cases %}
+  {% include card.html title=case.title url=case.link description=case.content region=case.region status=case.status %}
+  {% endfor %}
 </div>
 
-<!--
-<div class="col-md-4">
-        <h2>Navigering</h2>
-        <ul>
-          <li><a href="#intro">Introduktion</a></li>
-          <li><a href="#bakgrund">Bakgrund och Filosofi</a></li>
-	        <li><a href="#material">Läromaterial</a></li>
-	        <li><a href="#natverk">Nätverk</a></li>
-	        <li><a href="#avancerat">Avancerat</a></li>
-        </ul>
-</div>
--->
+<p>
+  <strong>Har du ett exempel att dela?</strong>
+  Kontakta <a href="mailto:info@opengov.se">info@opengov.se</a> eller
+  <a href="https://github.com/okfse/opengovse">bidra via GitHub</a>.
+</p>
