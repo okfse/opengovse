@@ -54,16 +54,31 @@ bundle exec jekyll serve
 pkill -f 'jekyll serve'
 ```
 
+### Brancher och publicering
+
+| Branch | Roll | Deploy vid push |
+|--------|------|-----------------|
+| `develop` | Standard; dagligt arbete | Nej |
+| `main` | Release-grind | Nej |
+| `gh-pages` | Produktion → [opengov.se](https://opengov.se) | Ja |
+
+Flöde: feature-branch → PR → `develop` → PR → `main` → PR → `gh-pages`.
+
+Pull requests mot `develop`, `main` eller `gh-pages` kör build och HTML Proofer i [GitHub Actions](https://github.com/okfse/opengovse/actions). Endast push till `gh-pages` publicerar sajten.
+
 ### Publicera
 
 ```bash
-git status
+git checkout develop
+git pull origin develop
+git checkout -b din-feature-branch
+# ... gör ändringar ...
 git add -A
 git commit -m "Beskriv din ändring"
-git push origin <din-branch>
+git push origin din-feature-branch
 ```
 
-Pull requests mot `gh-pages` kör samma build och HTML Proofer i GitHub Actions.
+Öppna en pull request mot `develop`. När ändringen ska ut live: PR `develop` → `main`, sedan PR `main` → `gh-pages`.
 
 ## Bidra
 

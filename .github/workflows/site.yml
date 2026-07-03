@@ -2,9 +2,9 @@ name: Build and deploy site
 
 on:
   push:
-    branches: [gh-pages, main, master]
+    branches: [gh-pages]
   pull_request:
-    branches: [gh-pages, main, master]
+    branches: [develop, main, gh-pages]
 
 permissions:
   contents: read
@@ -38,13 +38,13 @@ jobs:
         continue-on-error: true
 
       - name: Upload Pages artifact
-        if: github.event_name == 'push' && (github.ref == 'refs/heads/gh-pages' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+        if: github.event_name == 'push' && github.ref == 'refs/heads/gh-pages'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/gh-pages' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/gh-pages'
     needs: build
     runs-on: ubuntu-latest
     environment:
