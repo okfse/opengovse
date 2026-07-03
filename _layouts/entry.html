@@ -10,5 +10,5 @@ layout: page
 </div>
 {{ content }}
 {% if page.link %}
-<p><a class="entry-link" href="{{ page.link }}" rel="noopener">Besök {{ page.title }} &rarr;</a></p>
+<p><a class="entry-link" href="{{ page.link }}" rel="noopener">{% if page.status == 'archived' %}Gå till efterföljaren &rarr;{% else %}Besök {{ page.title }} &rarr;{% endif %}</a></p>
 {% endif %}

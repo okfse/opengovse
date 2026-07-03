@@ -50,7 +50,7 @@ High-link pages to spot-check externally: `lardigmer.md`, `_data/reports.yml`, `
 
 - OKFN Official palette applied via CSS variables (`#00A9E0`, `#E4FF36`, `#E077FF`, `#030712`)
 - Typography: HK Grotesk + Necto Mono (self-hosted from okfn.org assets)
-- Sweden-only logos vendored in `assets/brand/se/`
+- Sweden-only logos vendored in `assets/brand/se/` (OKSE landscape/portrait/no-text pack)
 - OK Sverige branding primarily in footer; opengov.se wordmark in header
 - See `docs/brand-tokens.md` for full token reference
 

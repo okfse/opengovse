@@ -1,7 +1,7 @@
 sweden:
-  - name: ÖppnaData.se
-    url: https://www.oppnadata.se/
-    description: Katalog över svenska öppna datakällor med DCAT-AP-metadata.
+  - name: dataportal.se
+    url: https://www.dataportal.se/
+    description: Nationell portal för datadelning och delning av metadata i Sverige.
   - name: DIGG
     url: https://www.digg.se/
     description: Myndigheten för digital förvaltning — styrning av digitalisering och öppna data i Sverige.

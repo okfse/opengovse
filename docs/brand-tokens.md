@@ -32,16 +32,20 @@ Fonts self-hosted from OKFN public assets (`assets/fonts/`).
 
 ## Sweden-only logos
 
-Vendored under `assets/brand/se/` from [okfse/assets.okfn.se](https://github.com/okfse/assets.okfn.se):
+Vendored under `assets/brand/se/` (see [assets/brand/README.md](../assets/brand/README.md)):
 
-- `OK_LG_LOGO_SWEDEN_WHITE_RGB.png` — footer (dark background)
-- `OK_LG_LOGO_SWEDEN_BLACK_RGB.png` — light backgrounds
-- `OK_LG_LOGO_SWEDEN_RGB.png` — full colour
-- `OK_SE_LOGO_CIRCLE.jpg` — favicon source
+| Variant folder | Naming | Use |
+|----------------|--------|-----|
+| `Landscape/` | `OKSE-landscape-{white,black,grey,full}-rgb` | Horizontal logo with wordmark |
+| `Portrait/` | `OKSE-portrait-{white,black,grey,full}-rgb` | Stacked layout |
+| `No text/` | `OK-notext-{white,black,grey,full}` | Mark only |
+
+Each variant ships in `1x`–`4x` PNG and `SVG`.
 
 No other Network chapter logos on this site.
 
 ## Usage on opengov.se
 
 - **Header:** opengov.se wordmark only; text link to OK Sverige
-- **Footer:** Open Knowledge Sverige white landscape logo + affiliation copy
+- **Footer:** `Landscape/SVG/OKSE-landscape-white-rgb.svg` + affiliation copy
+- **Favicon:** `favicon-32.png` and `apple-touch-icon.png` (from `No text/OK-notext-full`)

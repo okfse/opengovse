@@ -8,25 +8,26 @@ Audit of [`_tools/`](../_tools/) collection. Re-run: `./scripts/check-tool-links
 |-------|------|------|--------|
 | 1 | **Handlingar.se** | https://handlingar.se/sv | active, featured |
 | 2 | AllmänHandling.se | https://allmanhandling.se | active, featured |
-| 3 | DIGG | https://www.digg.se/ | active, featured |
+| 3 | dataportal.se | https://www.dataportal.se/ | active, featured |
 | 4 | Trafiklab | https://www.trafiklab.se/ | active, featured |
-| 5 | Protokollen.net | https://protokollen.net | active, featured |
-| 6 | DCAT-AP Manager | https://dcat-editor.com/manager/ | active, featured |
 
 ## Active tools (not featured)
 
 | Tool | HTTP | Notes |
 |------|------|-------|
-| EntryScape | 200 | DCAT-AP metadata |
 | FixaMinGata.se | 200 | Active civic reporting |
-| AT4AM | 200 | EU amendments, DFRI |
-| Datajournalistik.se | 200 | HTTPS updated |
-| ÖppnaData.se | 200 | New entry |
+| Undervaka.se | 200 | Guide för att testa offentlighetsprincipen |
+| Regeringskollen.se | 200 | Jämför regeringens och oppositionens förslag |
 
 ## Moved to archive (this audit)
 
 | Tool | Reason |
 |------|--------|
+| ÖppnaData.se | Nedlagd; ersatt av [dataportal.se](https://www.dataportal.se/) |
+| DCAT-AP Manager | Verktyget nedlagt |
+| Datajournalistik.se | Resurssajten nedlagd |
+| AT4AM | Historiskt DFRI-projekt; underhålls inte aktivt |
+| Protokollen.net | Webbplatsen inte längre tillgänglig |
 | PTS-Knappen | DFRI project page 404 |
 | ODI Open Data Maturity Model | ODI organisation wound down |
 | Öppna data i skolan | Stale project |

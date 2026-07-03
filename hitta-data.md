@@ -10,8 +10,8 @@ redirect_from:
 
 <div class="card-grid">
   <article class="card">
-    <h3><a href="https://www.oppnadata.se/">ÖppnaData.se</a></h3>
-    <p>Katalog som samlar svenska öppna datakällor med DCAT-AP-metadata.</p>
+    <h3><a href="https://www.dataportal.se/">dataportal.se</a></h3>
+    <p>Nationell portal för datadelning och delning av metadata i Sverige.</p>
     <div class="card-meta"><span class="tag tag-sweden">Sverige</span></div>
   </article>
   <article class="card">

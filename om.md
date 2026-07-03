@@ -7,8 +7,13 @@ redirect_from:
 ---
 <h1>{{ page.title }}</h1>
 <p>
-  OpenGov.se är ett öppet samarbetsprojekt som samlar resurser, organisationer och människor
+  OpenGov.se ägs och drivs av
+  <a href="https://okfn.se/">Open Knowledge Sverige</a> och samlar resurser, organisationer och människor
   för att öka öppenhet och insyn i Sveriges offentliga sektor.
+</p>
+<p>
+  Vi välkomnar partners och sponsorer som vill stödja arbetet.
+  Läs mer om sajtens bakgrund i <a href="{{ '/arkiv.html#historia' | relative_url }}">arkivet</a>.
 </p>
 <p>
   Kontakta oss via <a href="mailto:info@opengov.se">info@opengov.se</a> eller via

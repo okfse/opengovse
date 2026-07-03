@@ -2,8 +2,9 @@
 title: Datajournalistik.se
 link: https://datajournalistik.se/
 region: sweden
-status: active
+status: archived
 category: Granska
 last_verified: 2026-07-03
+archived_reason: Resurssajten är nedlagd.
 ---
-Resurser och inspiration för datajournalistik — metoder, verktyg och exempel. Upprätthålls av Journalism++ Stockholm.
+Tidigare resurssajt för datajournalistik — metoder, verktyg och exempel från Journalism++ Stockholm.

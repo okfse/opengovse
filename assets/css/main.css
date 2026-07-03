@@ -413,6 +413,11 @@ img { max-width: 100%; height: auto; }
   max-width: 220px;
 }
 
+.footer-brand img {
+  width: 100%;
+  height: auto;
+}
+
 .footer-affiliation {
   font-size: 0.9rem;
   color: #9CA3AF;

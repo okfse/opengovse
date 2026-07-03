@@ -31,7 +31,7 @@ redirect_from:
   <div class="card-grid">
     <article class="card">
       <h3><a href="https://undervaka.se">Undervaka.se</a></h3>
-      <p>Guider om offentlighetsprincipen och begäran om allmän handling.</p>
+      <p>Rapport och guide för att granska och testa offentlighetsprincipen i praktiken.</p>
     </article>
     <article class="card">
       <h3><a href="https://data.europa.eu/en/academy">EU:s dataakademi</a></h3>
@@ -58,6 +58,8 @@ redirect_from:
   <h2>Nätverk</h2>
   <ul>
     <li><a href="https://okfn.se/">Open Knowledge Sverige</a></li>
+    <li><a href="https://civictech.se/">Civic Tech Sweden</a> — nätverk för teknik med samhällsnytta, demokrati och transparens</li>
+    <li><a href="https://discuss.okfn.org/c/ok-network/okse/83">Open Knowledge Sweden Forum</a></li>
     <li><a href="https://www.facebook.com/groups/opengov/">OpenGov i Sverige (Facebook)</a></li>
     <li><a href="https://www.opengovpartnership.org/country/sweden">Open Government Partnership — Sverige</a></li>
   </ul>
@@ -68,7 +70,7 @@ redirect_from:
   <ul>
     <li><a href="https://datajournalismhandbook.org/">Data Journalism Handbook</a></li>
     <li><a href="https://verificationhandbook.com/">Verification Handbook</a></li>
-    <li><a href="https://datajournalistik.se/">Datajournalistik.se</a></li>
+    <li><a href="https://undervaka.se/">Undervaka.se</a></li>
   </ul>
 </section>
 

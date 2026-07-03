@@ -11,6 +11,20 @@ permalink: /arkiv.html
   De bevaras för referens och forskning.
 </div>
 
+<section class="section" id="historia">
+  <h2>Historik</h2>
+  <p>
+    OpenGov.se startades som privat initiativ av Peter Krantz och har sedan vuxit till en gemensam ingång
+    till verktyg, resurser och initiativ för öppna data och insyn i offentlig sektor i Sverige.
+  </p>
+  <p>
+    Idag ägs och drivs sajten av
+    <a href="https://okfn.se/">Open Knowledge Sverige</a> (org.nr 802494-0937).
+    Vi välkomnar partners och sponsorer som vill bidra — kontakta
+    <a href="mailto:info@opengov.se">info@opengov.se</a>.
+  </p>
+</section>
+
 <section class="section">
   <h2>Äldre webbplats</h2>
   <ul>

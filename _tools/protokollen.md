@@ -1,11 +1,9 @@
 ---
 title: Protokollen.net
-link: https://protokollen.net
 region: sweden
-status: active
+status: archived
 category: Granska
-featured: true
-featured_order: 5
 last_verified: 2026-07-03
+archived_reason: Webbplatsen protokollen.net är inte längre tillgänglig.
 ---
-Projekt av Journalism++ som samlar och publicerar svenska kommunstyrelseprotokoll från 2010 och framåt som öppen data för granskning och analys.
+Projekt av Journalism++ som samlade och publicerade svenska kommunstyrelseprotokoll från 2010 och framåt som öppen data för granskning och analys. Webbplatsen är inte längre tillgänglig.
