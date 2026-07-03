@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 url: "https://opengov.se"
 lang: sv
-twitter_username: opengov_se
+twitter_username: okfse
 github_username: okfse
 goatcounter_url: "https://opengovse.goatcounter.com/count"
 
