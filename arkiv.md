@@ -25,6 +25,16 @@ permalink: /arkiv.html
   </p>
 </section>
 
+<section class="section" id="arkiverade-kanaler">
+  <h2>Arkiverade kanaler</h2>
+  <p>
+    OpenGov.se hade tidigare ett eget konto på X:
+    <a href="https://twitter.com/opengov_se">@opengov_se</a>.
+    Kontot är inte längre aktivt. Följ
+    <a href="https://x.com/okfse">@okfse</a> (Open Knowledge Sverige) för nyheter.
+  </p>
+</section>
+
 <section class="section">
   <h2>Äldre webbplats</h2>
   <ul>

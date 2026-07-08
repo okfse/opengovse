@@ -31,16 +31,24 @@ Kör från projektroten innan du committar och pushar:
 
 ```bash
 bundle exec jekyll build --trace
-bundle exec htmlproofer ./_site --disable-external --allow-hash-href --no-enforce-https
+bundle exec htmlproofer ./_site --disable-external --allow-hash-href --no-enforce-https --ignore-files '/assets/reports/.*\.html/'
 ```
 
-Valfritt — kontrollera verktygslänkar (CI kör detta med `continue-on-error`):
+Valfritt — kontrollera externa länkar (CI kör detta med `continue-on-error`):
 
 ```bash
-./scripts/check-tool-links.sh
+./scripts/check-links.sh
 ```
 
-Lägg till `--fail-on-error` om du vill att skriptet ska avbryta vid trasiga länkar till aktiva verktyg.
+Skriptet kontrollerar HTTP-status för länkar i `_tools/`, `_cases/`, `_data/reports.yml` (rapporter) och `lardigmer.md`. Lägg till `--fail-on-error` om du vill att skriptet ska avbryta vid trasiga länkar till aktiva verktyg.
+
+För att spegla rapporter lokalt (PDF och HTML, inkl. fallbacks och Wayback):
+
+```bash
+./scripts/check-links.sh --mirror-reports
+```
+
+Det laddar ner till `assets/reports/`, uppdaterar `manifest.json` och skriver `mirror`/`fallback_url` i `_data/reports.yml`. Committa speglade filer tillsammans med YAML-uppdateringarna. Använd `--force` för att tvinga omnedladdning.
 
 ### Förhandsgranska i webbläsaren
 

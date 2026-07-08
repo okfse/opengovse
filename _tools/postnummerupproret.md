@@ -1,6 +1,6 @@
 ---
 title: Postnummerupproret
-link: http://www.postnummeruppror.nu/
+link: https://www.postnummeruppror.nu/
 region: sweden
 status: archived
 category: Interagera

@@ -1,97 +1,147 @@
+---
 categories:
-  - id: varde
-    title: Värdeskapande
-    items:
-      - title: "The Impact of Open Data (2015)"
-        url: http://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf
-        region: nordics
-        year: 2015
-        status: historical
-      - title: "Open for Business: How Open Data Can Help Achieve the G20 Growth Target"
-        url: https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf
-        region: international
-        year: 2014
-        status: historical
-      - title: "Creating Value through Open Data (2014)"
-        url: https://data.europa.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf
-        region: eu
-        year: 2014
-        status: historical
-      - title: "Open Data Study"
-        url: https://www.opensocietyfoundations.org/reports/open-data-study
-        region: international
-        year: 2013
-        status: historical
-      - title: "Open Data Unlocking Innovation and Performance with Liquid Information"
-        url: https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/open-data-unlocking-innovation-and-performance-with-liquid-information
-        region: international
-        year: 2013
-        status: historical
-      - title: "The value of Danish address data (2010)"
-        url: http://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf
-        region: nordics
-        year: 2010
-        status: historical
-  - id: transparens
-    title: Transparens
-    items:
-      - title: "Ensuring Utmost Transparency - Free Software and Open Standards under the Rules of Procedure of the European Parliament"
-        url: http://www.ifosslr.org/ifosslr/article/view/105/186
-        region: eu
-        year: 2012
-        status: historical
-  - id: demokrati
-    title: Demokrati
-    items:
-      - title: "Open data appetite: How nations' hunger for open government data varies with their economic complexity"
-        url: https://aaltodoc.aalto.fi/handle/123456789/16423
-        region: nordics
-        year: 2015
-        status: historical
-      - title: "Open Data and the Future of Civic Innovation"
-        url: http://beyondtransparency.org/
-        region: international
-        year: 2013
-        status: historical
-  - id: integritet
-    title: Integritet
-    items:
-      - title: "MyData – A Nordic Model for human-centered personal data management and processing (2014)"
-        url: https://mydata.org/resources/
-        region: nordics
-        year: 2014
-        status: active
-  - id: analys
-    title: Situationsanalys
-    items:
-      - title: "Öppna data i Sverige 2014"
-        url: https://www.pwc.se/sv/publikationer/oppna-data-i-sverige-2014.html
-        region: sweden
-        year: 2014
-        status: historical
-      - title: "Öppna Data 2014 Nulägesanalys"
-        url: https://www.vinnova.se/
-        region: sweden
-        year: 2014
-        status: historical
-  - id: guide
-    title: "Stöd och vägledning"
-    items:
-      - title: "Öppna data – En guide för beslutsfattare"
-        url: https://www.iis.se/docs/IIS-rapport-oppna-data-en-guide-for-beslutsfattare-webb.pdf
-        region: sweden
-        year: 2015
-        status: active
-      - title: "Open Data Handbook"
-        url: https://opendatahandbook.org/
-        region: international
-        year: 2020
-        status: active
-  - id: strategi
-    title: Strategier
-    items:
-      - title: "Good basic data for Everyone (Danmark, 2012)"
-        url: https://www.digitalestyrelsen.dk/nyheder/2012/okt/08/gode-grunddata-til-alle
-        region: nordics
-        year: 2012
-        status: historical
+- id: varde
+  title: Värdeskapande
+  items:
+  - title: The Impact of Open Data (2015)
+    url: https://www.w3.org/2013/share-psi/wiki/images/6/67/Impact_of_Open_Data_in_the_Public_Sector_Koski_2015.pdf
+    region: nordics
+    year: 2015
+    status: historical
+    mirror: "/assets/reports/the-impact-of-open-data-2015-2015.pdf"
+    mirror_format: pdf
+    primary_ok: true
+  - title: 'Open for Business: How Open Data Can Help Achieve the G20 Growth Target'
+    url: https://www.omidyar.com/sites/default/files/file_archive/insights/ON%20Report_061114_FNL.pdf
+    region: international
+    year: 2014
+    status: historical
+    mirror: "/assets/reports/open-for-business-how-open-data-can-help-achieve-the-g20-growth-target-2014.pdf"
+    mirror_format: pdf
+    primary_ok: false
+    fallback_url: https://www.lateraleconomics.com.au/s/omidyar_open_business.pdf
+  - title: Creating Value through Open Data (2014)
+    url: https://data.europa.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf
+    region: eu
+    year: 2014
+    status: historical
+    mirror: "/assets/reports/creating-value-through-open-data-2014-2014.pdf"
+    mirror_format: pdf
+    primary_ok: true
+  - title: Open Data Study
+    url: https://www.opensocietyfoundations.org/reports/open-data-study
+    region: international
+    year: 2013
+    status: historical
+    mirror: "/assets/reports/open-data-study-2013.html"
+    mirror_format: html
+    primary_ok: true
+  - title: Open Data Unlocking Innovation and Performance with Liquid Information
+    url: https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/open-data-unlocking-innovation-and-performance-with-liquid-information
+    region: international
+    year: 2013
+    status: historical
+  - title: The value of Danish address data (2010)
+    url: https://www.adresse-info.dk/Portals/2/Benefit/Value_Assessment_Danish_Address_Data_UK_2010-07-07b.pdf
+    region: nordics
+    year: 2010
+    status: historical
+    mirror: "/assets/reports/the-value-of-danish-address-data-2010-2010.pdf"
+    mirror_format: pdf
+    primary_ok: false
+    fallback_url: https://opendatatoolkit.worldbank.org/content/dam/sites/data/odk/documents/value-assessment-danish-address-data-uk-2010-07-07b.pdf
+- id: transparens
+  title: Transparens
+  items:
+  - title: Ensuring Utmost Transparency - Free Software and Open Standards under the
+      Rules of Procedure of the European Parliament
+    url: https://www.ifosslr.org/ifosslr/article/view/105/186
+    region: eu
+    year: 2012
+    status: historical
+    mirror: "/assets/reports/ensuring-utmost-transparency-free-software-and-open-standards-under-the-rules-of-2012.html"
+    mirror_format: html
+    primary_ok: true
+- id: demokrati
+  title: Demokrati
+  items:
+  - title: 'Open data appetite: How nations'' hunger for open government data varies
+      with their economic complexity'
+    url: https://aaltodoc.aalto.fi/handle/123456789/16423
+    region: nordics
+    year: 2015
+    status: historical
+    mirror: "/assets/reports/open-data-appetite-how-nations-hunger-for-open-government-data-varies-with-their-2015.html"
+    mirror_format: html
+    primary_ok: true
+  - title: Open Data and the Future of Civic Innovation
+    url: https://beyondtransparency.org/
+    region: international
+    year: 2013
+    status: historical
+    mirror: "/assets/reports/open-data-and-the-future-of-civic-innovation-2013.html"
+    mirror_format: html
+    primary_ok: true
+- id: integritet
+  title: Integritet
+  items:
+  - title: MyData – A Nordic Model for human-centered personal data management and
+      processing (2014)
+    url: https://mydata.org/resources/
+    region: nordics
+    year: 2014
+    status: active
+    mirror: "/assets/reports/mydata-a-nordic-model-for-human-centered-personal-data-management-and-processing-2014.html"
+    mirror_format: html
+    primary_ok: true
+- id: analys
+  title: Situationsanalys
+  items:
+  - title: Öppna data i Sverige 2014
+    url: https://www.pwc.se/sv/publikationer/oppna-data-i-sverige-2014.html
+    region: sweden
+    year: 2014
+    status: historical
+    mirror: "/assets/reports/oppna-data-i-sverige-2014-2014.pdf"
+    mirror_format: pdf
+    primary_ok: false
+    fallback_url: https://insynsverige.se/documentHandler.ashx?did=1796173
+  - title: Öppna Data 2014 Nulägesanalys
+    url: https://www.vinnova.se/contentassets/968bf22a8c2b4505bcf06d44321dff24/vr_14_04.pdf
+    region: sweden
+    year: 2014
+    status: historical
+    mirror: "/assets/reports/oppna-data-2014-nulagesanalys-2014.pdf"
+    mirror_format: pdf
+    primary_ok: true
+- id: guide
+  title: Stöd och vägledning
+  items:
+  - title: Öppna data – En guide för beslutsfattare
+    url: https://www.iis.se/docs/IIS-rapport-oppna-data-en-guide-for-beslutsfattare-webb.pdf
+    region: sweden
+    year: 2015
+    status: active
+    mirror: "/assets/reports/oppna-data-en-guide-for-beslutsfattare-2015.pdf"
+    mirror_format: pdf
+    primary_ok: true
+  - title: Open Data Handbook
+    url: https://opendatahandbook.org/
+    region: international
+    year: 2020
+    status: active
+    mirror: "/assets/reports/open-data-handbook-2020.html"
+    mirror_format: html
+    primary_ok: true
+- id: strategi
+  title: Strategier
+  items:
+  - title: Good basic data for Everyone (Danmark, 2012)
+    url: https://www.digitalestyrelsen.dk/nyheder/2012/okt/08/gode-grunddata-til-alle
+    region: nordics
+    year: 2012
+    status: historical
+    mirror: "/assets/reports/good-basic-data-for-everyone-danmark-2012-2012.pdf"
+    mirror_format: pdf
+    primary_ok: false
+    fallback_url: https://www.kl.dk/media/21gjyyek/bilag-1-publikationen-gode-grunddata-til-alle.pdf

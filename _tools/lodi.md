@@ -1,6 +1,6 @@
 ---
 title: Lokala Öppna Data Index (LODI)
-link: http://sweden.census.okfn.org/
+link: https://sweden.census.okfn.org/
 region: sweden
 status: archived
 category: Få översikt
