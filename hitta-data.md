@@ -37,3 +37,5 @@ redirect_from:
 </div>
 
 <p>Se även <a href="{{ '/sverige.html' | relative_url }}">Sverige</a> och <a href="{{ '/norden-eu.html' | relative_url }}">Norden &amp; EU</a> för mer kontext.</p>
+
+<p><strong>Vill du dela data själv?</strong> Läs vår <a href="{{ '/dela-data-dataportal.html' | relative_url }}">guide till strukturerad datadelning på dataportal.se</a>.</p>

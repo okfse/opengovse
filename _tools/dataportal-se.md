@@ -8,4 +8,4 @@ featured: true
 featured_order: 3
 last_verified: 2026-07-03
 ---
-Nationell portal för datadelning och delning av metadata i Sverige.
+Nationell portal för datadelning och delning av metadata i Sverige. Se även opengov.se:s guide till strukturerad datadelning för praktiska instruktioner.

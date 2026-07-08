@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Check HTTP status of external links for tools, cases, reports, and lardigmer.
+# Check HTTP status of external links for tools, cases, reports, and content pages
+# (lardigmer, sverige, guides etc.). Easy to extend by adding filenames below.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -64,12 +65,17 @@ done < <(ruby -ryaml -e '
   end
 ' "$ROOT/_data/reports.yml")
 
-# Lär dig mer
-while IFS= read -r link; do
-  [[ -n "$link" ]] || continue
-  code=$(check_url "$link")
-  echo "lardigmer|n/a|$code|$link|$link|lardigmer.md"
-done < <(grep -oE 'href="https?://[^"]+' "$ROOT/lardigmer.md" | sed 's/href="//' | sort -u)
+# Content pages (guides, country overviews etc. that contain external links)
+# Add new pages here when created so their links are monitored.
+for page in lardigmer.md sverige.md hitta-data.md dela-data-dataportal.md norden-eu.md; do
+  page_path="$ROOT/$page"
+  [[ -f "$page_path" ]] || continue
+  while IFS= read -r link; do
+    [[ -n "$link" ]] || continue
+    code=$(check_url "$link")
+    echo "content|n/a|$code|$link|$link|$page"
+  done < <(grep -oE 'href="https?://[^"]+' "$page_path" | sed 's/href="//' | sort -u)
+done
 
 if [[ "$MIRROR" -eq 1 ]]; then
   mirror_args=()

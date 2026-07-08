@@ -16,6 +16,7 @@ permalink: /sverige.html
     {% include card.html title=portal.name url=portal.url description=portal.description region="sweden" status="active" %}
     {% endfor %}
   </div>
+  <p>Se också vår <a href="{{ '/dela-data-dataportal.html' | relative_url }}">guide till strukturerad datadelning</a> om du vill göra dina egna datamängder synliga på dataportal.se.</p>
 </section>
 
 <section class="section">
