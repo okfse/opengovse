@@ -1,0 +1,10 @@
+# Curated alternate URLs when primary report links are broken.
+# Used by scripts/mirror-reports.rb before Internet Archive lookup.
+"Open for Business: How Open Data Can Help Achieve the G20 Growth Target":
+  fallback_url: https://www.lateraleconomics.com.au/s/omidyar_open_business.pdf
+"The value of Danish address data (2010)":
+  fallback_url: https://opendatatoolkit.worldbank.org/content/dam/sites/data/odk/documents/value-assessment-danish-address-data-uk-2010-07-07b.pdf
+"Öppna data i Sverige 2014":
+  fallback_url: https://insynsverige.se/documentHandler.ashx?did=1796173
+"Good basic data for Everyone (Danmark, 2012)":
+  fallback_url: https://www.kl.dk/media/21gjyyek/bilag-1-publikationen-gode-grunddata-til-alle.pdf

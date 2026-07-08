@@ -1,6 +1,6 @@
 ---
 title: PSI-Datakollen
-link: http://www.psidatakollen.se/
+link: https://www.psidatakollen.se/
 region: sweden
 status: archived
 category: Få översikt

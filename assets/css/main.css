@@ -298,6 +298,29 @@ img { max-width: 100%; height: auto; }
   color: var(--color-muted);
 }
 
+.card-fallback,
+.card-mirror {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+}
+
+.card-fallback a,
+.card-mirror a {
+  color: var(--color-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.card-fallback a:hover,
+.card-mirror a:hover {
+  color: var(--color-accent);
+}
+
+.card-note {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
