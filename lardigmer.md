@@ -30,6 +30,10 @@ redirect_from:
   <h2>Läromaterial</h2>
   <div class="card-grid">
     <article class="card">
+      <h3><a href="{{ '/dela-data-dataportal.html' | relative_url }}">Guide till strukturerad datadelning</a></h3>
+      <p>Hur du delar metadata så att dina datamängder syns på dataportal.se (editera, RDF, EntryScape, CKAN m.m.).</p>
+    </article>
+    <article class="card">
       <h3><a href="https://undervaka.se">Undervaka.se</a></h3>
       <p>Rapport och guide för att granska och testa offentlighetsprincipen i praktiken.</p>
     </article>
