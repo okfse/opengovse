@@ -77,7 +77,7 @@ permalink: /dela-data-dataportal.html
     <article class="card">
       <h3>3. EntryScape (inkl. EntryScape Free)</h3>
       <p>EntryScape är ett verktyg byggt för länkad data och DCAT-AP. Det ger ett användarvänligt gränssnitt för att skapa kataloger, datamängder och distributioner.</p>
-      <p><strong>EntryScape Free</strong> är en kostnadsfri variant som många kommuner och myndigheter använder.</p>
+      <p><strong>EntryScape Free</strong> är en kostnadsfri variant som många kommuner, regioner och myndigheter använder. Kolla med din organisation om ni redan har det.</p>
       <p><strong>Så gör du:</strong></p>
       <ol>
         <li>Skapa/publicera din katalog i EntryScape.</li>
@@ -90,14 +90,14 @@ permalink: /dela-data-dataportal.html
 
     <article class="card">
       <h3>4. CKAN</h3>
-      <p>Många offentliga organisationer använder CKAN som datakatalog. CKAN kan exportera metadata i format som är kompatibla med DCAT-AP och kan skördas av dataportal.se.</p>
+      <p>Flera offentliga organisationer internationellt använder CKAN som datakatalog. CKAN kan exportera metadata i format som är kompatibla med DCAT-AP och kan skördas av dataportal.se.</p>
       <p><strong>Så gör du:</strong></p>
       <ul>
         <li>Se till att din CKAN-instans är konfigurerad för DCAT-export eller att den exponerar data via API.</li>
         <li>Skapa en stabil URL som pekar till din katalogs metadata.</li>
         <li>Registrera URL:en på admin.dataportal.se.</li>
       </ul>
-      <p>Kontakta din IT- eller dataansvariga om ni redan har CKAN i organisationen.</p>
+      <p>Kontakta din organisation och se om ni redan har CKAN i organisationen.</p>
     </article>
   </div>
 </section>
