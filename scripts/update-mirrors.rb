@@ -64,7 +64,9 @@ Dir.glob(File.join(CASES_DIR, "*.md")).each do |path|
     fm.delete("fallback_url")
   end
 
-  File.write(path, "---\n#{fm.to_yaml}---\n#{body}")
+  # Hash#to_yaml already includes a leading "---" document marker.
+  body = body.end_with?("\n") ? body : "#{body}\n"
+  File.write(path, "#{fm.to_yaml}---\n#{body}")
 end
 
 puts "Updated #{REPORTS_YML} and case files from manifest."

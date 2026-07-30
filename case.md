@@ -9,7 +9,8 @@ redirect_from:
 <p>Goda exempel där öppen data, transparens och medborgarinflytande skapat konkret nytta.</p>
 
 <div class="card-grid">
-  {% for case in site.cases %}
+  {% assign ordered_cases = site.cases | sort: "order" %}
+  {% for case in ordered_cases %}
   {% include card.html title=case.title url=case.link description=case.content region=case.region status=case.status fallback_url=case.fallback_url mirror=case.mirror mirror_format=case.mirror_format primary_ok=case.primary_ok %}
   {% endfor %}
 </div>
