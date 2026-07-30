@@ -49,7 +49,7 @@ permalink: /arkiv.html
   <div class="card-grid">
     {% assign archived_tools = site.tools | where: "status", "archived" %}
     {% for tool in archived_tools %}
-    {% include card.html title=tool.title url=tool.link description=tool.content region=tool.region status=tool.status category=tool.category %}
+    {% include card.html title=tool.title url=tool.link description=tool.content region=tool.region status=tool.status category=tool.category fallback_url=tool.fallback_url primary_ok=tool.primary_ok %}
     {% endfor %}
   </div>
 </section>
